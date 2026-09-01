@@ -1,0 +1,91 @@
+Department,JobRole,Skill,TotalHeadcount,AvailableHeadcount,GapCount,Severity,ReskillTarget,ExternalHireTarget
+Finance,Auditor,Accounting,38,22,16,Medium,11,5
+Finance,Auditor,Financial Auditing,38,23,15,Medium,10,5
+Finance,Auditor,Risk Assessment,38,23,15,Medium,10,5
+Finance,Auditor,Tax Compliance,38,20,18,High,12,6
+Finance,Auditor,Internal Controls,38,22,16,Medium,11,5
+Finance,Auditor,Excel & Financial Modeling,38,29,9,Medium,6,3
+Finance,Auditor,Regulatory Reporting,38,22,16,Medium,11,5
+Sales,Sales Executive,B2B Sales,49,26,23,High,16,7
+Sales,Sales Executive,Client Negotiation,49,25,24,High,16,8
+Sales,Sales Executive,CRM Management,49,37,12,Medium,8,4
+Sales,Sales Executive,Pipeline Forecasting,49,25,24,High,16,8
+Sales,Sales Executive,Lead Generation,49,25,24,High,16,8
+Sales,Sales Executive,Market Analysis,49,31,18,Medium,12,6
+Sales,Sales Executive,Relationship Management,49,27,22,Medium,15,7
+Support,Helpdesk,Technical Support,42,22,20,High,14,6
+Support,Helpdesk,Customer Troubleshooting,42,29,13,Medium,9,4
+Support,Helpdesk,ServiceNow / ITSM,42,22,20,High,14,6
+Support,Helpdesk,Hardware Diagnostics,42,25,17,Medium,11,6
+Support,Helpdesk,Network Basics,42,22,20,High,14,6
+Support,Helpdesk,SLA Management,42,20,22,High,15,7
+Support,Helpdesk,Active Directory,42,15,27,High,18,9
+HR,HR Executive,Talent Acquisition,39,27,12,Medium,8,4
+HR,HR Executive,Employee Onboarding,39,21,18,High,12,6
+HR,HR Executive,HR Policies & Compliance,39,24,15,Medium,10,5
+HR,HR Executive,HRIS Management,39,22,17,Medium,11,6
+HR,HR Executive,Conflict Resolution,39,17,22,High,15,7
+HR,HR Executive,Performance Management,39,23,16,Medium,11,5
+HR,HR Executive,Payroll Coordination,39,21,18,High,12,6
+Sales,Account Manager,Key Account Management,50,28,22,Medium,15,7
+Sales,Account Manager,Customer Success,50,26,24,High,16,8
+Sales,Account Manager,Upselling & Cross-selling,50,33,17,Medium,11,6
+Sales,Account Manager,Contract Negotiation,50,25,25,High,17,8
+Sales,Account Manager,Client Retention,50,29,21,Medium,14,7
+Sales,Account Manager,Strategic Account Planning,50,29,21,Medium,14,7
+IT,Engineer,Systems Architecture,25,13,12,High,8,4
+IT,Engineer,Cloud Infrastructure (AWS/GCP),25,13,12,High,8,4
+IT,Engineer,CI/CD Pipelines,25,13,12,High,8,4
+IT,Engineer,Linux Administration,25,14,11,Medium,7,4
+IT,Engineer,Python / Go,25,12,13,High,9,4
+IT,Engineer,Docker & Kubernetes,25,14,11,Medium,7,4
+IT,Engineer,Monitoring & Logging,25,14,11,Medium,7,4
+Finance,Accountant,General Ledger,39,20,19,High,13,6
+Finance,Accountant,Financial Statements,39,22,17,Medium,11,6
+Finance,Accountant,Accounts Payable / Receivable,39,28,11,Medium,7,4
+Finance,Accountant,Tax Preparation,39,26,13,Medium,9,4
+Finance,Accountant,QuickBooks / SAP,39,24,15,Medium,10,5
+Finance,Accountant,Payroll Management,39,17,22,High,15,7
+Finance,Accountant,Reconciliation,39,27,12,Medium,8,4
+HR,HR Manager,HR Strategy,38,24,14,Medium,9,5
+HR,HR Manager,Executive Leadership,38,21,17,Medium,11,6
+HR,HR Manager,Labor Law & Compliance,38,23,15,Medium,10,5
+HR,HR Manager,Succession Planning,38,25,13,Medium,9,4
+HR,HR Manager,Organizational Development,38,28,10,Medium,7,3
+HR,HR Manager,Budgeting,38,22,16,Medium,11,5
+HR,HR Manager,Employee Engagement,38,19,19,High,13,6
+IT,Developer,Python,38,22,16,Medium,11,5
+IT,Developer,JavaScript / React,38,24,14,Medium,9,5
+IT,Developer,REST APIs,38,21,17,Medium,11,6
+IT,Developer,SQL & Database Design,38,24,14,Medium,9,5
+IT,Developer,Git Version Control,38,27,11,Medium,7,4
+IT,Developer,Docker,38,23,15,Medium,10,5
+IT,Developer,Microservices Architecture,38,17,21,High,14,7
+Marketing,SEO Analyst,Search Engine Optimization,34,14,20,High,14,6
+Marketing,SEO Analyst,Google Analytics / Search Console,34,17,17,High,11,6
+Marketing,SEO Analyst,Keyword Research,34,14,20,High,14,6
+Marketing,SEO Analyst,Technical SEO Auditing,34,20,14,Medium,9,5
+Marketing,SEO Analyst,Content Strategy,34,20,14,Medium,9,5
+Marketing,SEO Analyst,Link Building,34,13,21,High,14,7
+Marketing,SEO Analyst,Competitor SEO Analysis,34,21,13,Medium,9,4
+Support,Support Engineer,L2/L3 Technical Troubleshooting,40,29,11,Medium,7,4
+Support,Support Engineer,Log Analysis,40,19,21,High,14,7
+Support,Support Engineer,Database Querying (SQL),40,19,21,High,14,7
+Support,Support Engineer,Incident Management,40,26,14,Medium,9,5
+Support,Support Engineer,Cloud Monitoring,40,20,20,High,14,6
+Support,Support Engineer,Scripting (Python/Bash),40,28,12,Medium,8,4
+Support,Support Engineer,Customer Communication,40,22,18,High,12,6
+IT,Tester,QA Testing,30,18,12,Medium,8,4
+IT,Tester,Selenium / Playwright,30,15,15,High,10,5
+IT,Tester,Test Automation,30,17,13,Medium,9,4
+IT,Tester,API Testing (Postman),30,25,5,Low,3,2
+IT,Tester,Bug Lifecycle Management,30,23,7,Medium,4,3
+IT,Tester,Performance Testing (JMeter),30,13,17,High,11,6
+IT,Tester,CI/CD Quality Gates,30,18,12,Medium,8,4
+Marketing,Content Lead,Content Strategy,38,24,14,Medium,9,5
+Marketing,Content Lead,Copywriting & Editing,38,18,20,High,14,6
+Marketing,Content Lead,SEO & Keyword Strategy,38,31,7,Low,4,3
+Marketing,Content Lead,Brand Storytelling,38,24,14,Medium,9,5
+Marketing,Content Lead,Content Marketing,38,25,13,Medium,9,4
+Marketing,Content Lead,Social Media Management,38,20,18,High,12,6
+Marketing,Content Lead,Analytics & Reporting,38,18,20,High,14,6

@@ -1,0 +1,19 @@
+CourseID,CourseTitle,TargetSkill,DurationHours,Level,Provider
+C101,Advanced Financial Auditing & Risk Management,Financial Auditing,20,Advanced,Coursera Enterprise
+C102,Mastering Risk Assessment in Modern Enterprises,Risk Assessment,15,Intermediate,LinkedIn Learning
+C103,Corporate Tax Compliance & Reporting,Tax Compliance,18,Advanced,Udemy for Business
+C104,High-Impact Enterprise B2B Sales & Negotiation,B2B Sales,25,Advanced,Harvard Online
+C105,Modern CRM & Sales Pipeline Mastery,CRM Management,12,Intermediate,HubSpot Academy
+C106,ITSM & ServiceNow Service Desk Leadership,ServiceNow / ITSM,30,Advanced,ServiceNow Learn
+C107,Strategic Talent Acquisition & Sourcing,Talent Acquisition,14,Intermediate,SHRM Online
+C108,Enterprise Labor Law & HR Compliance,Labor Law & Compliance,22,Advanced,Cornell Certificate
+C109,Cloud Infrastructure on AWS & Kubernetes,Cloud Infrastructure (AWS/GCP),40,Advanced,AWS Training
+C110,Docker & Container Orchestration Bootcamp,Docker & Kubernetes,25,Intermediate,Pluralsight
+C111,Production Python & REST API Engineering,Python,35,Intermediate,Udemy for Business
+C112,Modern Microservices Architecture in Cloud,Microservices Architecture,30,Advanced,Coursera Enterprise
+C113,Test Automation with Playwright & Selenium,Test Automation,28,Intermediate,TestAutomationU
+C114,SEO Growth Masterclass: Technical & Keyword Auditing,Search Engine Optimization,20,Advanced,Semrush Academy
+C115,Strategic Account Planning & Retention,Key Account Management,16,Intermediate,LinkedIn Learning
+C116,Corporate Financial Statements & Reconciliation,Financial Statements,20,Intermediate,Wharton Online
+C117,Full-Stack React & Next.js Development,JavaScript / React,32,Intermediate,Frontend Masters
+C118,Data Literacy & SQL Analytics for Managers,SQL & Database Design,18,Beginner,DataCamp

@@ -1,0 +1,501 @@
+EmployeeID,Name,Gender,Age,Department,JobRole,YearsAtCompany,MonthlySalary,OvertimeHoursPerMonth,WorkLifeBalanceScore,PerformanceRating,EngagementScore,AttritionProbability,AttritionRiskCategory,ReadinessScoreToday,ProjectedReadinessAfterTraining,SkillGapCount,MissingSkills,PrimaryRecommendation
+1,Steven Barnett,Other,57,Finance,Auditor,9,93531,33,1.9,4,85.2,0.77,High,57.1,89.2,3,"Risk Assessment, Internal Controls, Regulatory Reporting",Mastering Risk Assessment in Modern Enterprises (LinkedIn Learning)
+2,Christopher Benson,Female,26,Sales,Sales Executive,11,53706,24,5.03,1,100.0,0.73,High,42.9,85.8,4,"Client Negotiation, Pipeline Forecasting, Lead Generation, Relationship Management",Upskill in Client Negotiation
+3,Norman Lane,Other,59,Support,Helpdesk,15,105756,20,4.83,4,100.0,0.04,Low,85.7,96.4,1,Technical Support,Upskill in Technical Support
+4,Rita Walker,Female,43,HR,HR Executive,10,176377,22,4.6,4,100.0,0.04,Low,71.4,92.8,2,"Performance Management, Payroll Coordination",Upskill in Performance Management
+5,Judith Ware,Male,52,Sales,Account Manager,6,154782,18,3.73,4,100.0,0.15,Low,66.7,91.7,2,"Key Account Management, Customer Success",Strategic Account Planning & Retention (LinkedIn Learning)
+6,Peggy Mann,Other,33,Support,Helpdesk,7,58647,34,2.37,3,83.1,0.45,Medium,57.1,89.2,3,"Technical Support, Customer Troubleshooting, Active Directory",Upskill in Technical Support
+7,Brenda Bauer,Male,55,IT,Engineer,7,70273,1,6.47,1,100.0,0.27,Low,71.4,92.8,2,"Systems Architecture, Python / Go",Upskill in Systems Architecture
+8,Troy Ford,Female,51,HR,HR Executive,9,178909,33,-0.27,3,50.1,0.61,Medium,71.4,92.8,2,"HRIS Management, Conflict Resolution",Upskill in HRIS Management
+9,Joel Fuller,Male,32,HR,HR Executive,15,51014,40,0.17,3,59.1,0.79,High,42.9,85.8,4,"Talent Acquisition, HRIS Management, Performance Management, Payroll Coordination",Strategic Talent Acquisition & Sourcing (SHRM Online)
+10,Cody Bright,Female,54,Finance,Accountant,14,63726,21,2.63,2,78.1,0.79,High,57.1,89.2,3,"General Ledger, Tax Preparation, Reconciliation",Upskill in General Ledger
+11,Sara Snyder,Other,52,HR,HR Executive,10,64215,2,7.43,3,100.0,0.2,Low,42.9,85.8,4,"Employee Onboarding, HR Policies & Compliance, HRIS Management, Payroll Coordination",Upskill in Employee Onboarding
+12,David Williams,Male,55,Support,Helpdesk,14,76960,14,6.87,5,100.0,0.2,Low,28.6,82.2,5,"ServiceNow / ITSM, Hardware Diagnostics, Network Basics, SLA Management, Active Directory",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+13,Shannon Clark,Male,47,Finance,Accountant,5,151391,8,5.07,4,100.0,0.04,Low,85.7,96.4,1,General Ledger,Upskill in General Ledger
+14,Jeffery Lopez,Female,50,HR,HR Manager,13,170862,7,8.43,4,100.0,0.04,Low,71.4,92.8,2,"Labor Law & Compliance, Succession Planning",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+15,Anna Dominguez,Male,26,IT,Developer,7,161974,6,8.3,3,100.0,0.1,Low,71.4,92.8,2,"Python, Docker",Production Python & REST API Engineering (Udemy for Business)
+16,Peter Mckee,Female,43,Marketing,SEO Analyst,5,164012,1,6.63,3,100.0,0.24,Low,57.1,89.2,3,"Search Engine Optimization, Technical SEO Auditing, Content Strategy",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+17,Connie Bailey,Other,41,Support,Support Engineer,11,70403,10,5.67,3,100.0,0.15,Low,85.7,96.4,1,Database Querying (SQL),Upskill in Database Querying (SQL)
+18,Taylor Morris,Female,39,IT,Tester,15,173689,21,3.97,3,100.0,0.1,Low,71.4,92.8,2,"QA Testing, CI/CD Quality Gates",Upskill in QA Testing
+19,Nicole Roberts,Male,47,Support,Helpdesk,15,122403,9,5.37,1,100.0,0.42,Medium,57.1,89.2,3,"ServiceNow / ITSM, SLA Management, Active Directory",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+20,Megan Williams,Other,23,Support,Support Engineer,10,65010,2,4.77,3,100.0,0.19,Low,85.7,96.4,1,Customer Communication,Upskill in Customer Communication
+21,Clinton Scott,Female,54,Support,Support Engineer,2,75646,20,4.83,3,100.0,0.18,Low,42.9,85.8,4,"L2/L3 Technical Troubleshooting, Log Analysis, Incident Management, Customer Communication",Upskill in L2/L3 Technical Troubleshooting
+22,Erin Massey,Other,60,Sales,Sales Executive,14,130906,18,1.73,4,80.6,0.39,Medium,42.9,85.8,4,"B2B Sales, CRM Management, Lead Generation, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+23,Ashley Marsh,Male,42,IT,Tester,6,176048,19,3.37,3,100.0,0.3,Low,42.9,85.8,4,"Selenium / Playwright, Bug Lifecycle Management, Performance Testing (JMeter), CI/CD Quality Gates",Upskill in Selenium / Playwright
+24,Jasmine Gonzalez,Female,57,IT,Tester,3,68060,31,-1.2,2,31.6,0.98,High,85.7,96.4,1,Selenium / Playwright,Upskill in Selenium / Playwright
+25,Sharon Lane,Other,59,Marketing,Content Lead,5,62282,35,2.17,4,95.4,0.47,Medium,42.9,85.8,4,"Copywriting & Editing, Content Marketing, Social Media Management, Analytics & Reporting",Upskill in Copywriting & Editing
+26,David Maldonado,Other,28,Marketing,SEO Analyst,2,89567,29,2.03,3,80.7,0.48,Medium,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Link Building, Competitor SEO Analysis",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+27,Sheryl Lopez,Other,33,Sales,Sales Executive,11,82449,31,0.63,4,68.5,0.66,Medium,71.4,92.8,2,"Pipeline Forecasting, Market Analysis",Upskill in Pipeline Forecasting
+28,Patricia Jones,Female,52,Marketing,Content Lead,4,41883,20,4.17,2,92.2,0.47,Medium,57.1,89.2,3,"Brand Storytelling, Content Marketing, Analytics & Reporting",Upskill in Brand Storytelling
+29,Samantha Conley,Male,46,Finance,Accountant,15,74577,37,0.77,3,71.0,0.77,High,57.1,89.2,3,"QuickBooks / SAP, Payroll Management, Reconciliation",Upskill in QuickBooks / SAP
+30,Matthew Gutierrez,Male,23,Support,Support Engineer,12,104549,38,-2.6,4,29.7,0.82,High,42.9,85.8,4,"Log Analysis, Database Querying (SQL), Incident Management, Cloud Monitoring",Upskill in Log Analysis
+31,Nicholas Duncan,Other,60,IT,Developer,4,74638,39,1.53,4,83.6,0.67,Medium,71.4,92.8,2,"SQL & Database Design, Git Version Control",Data Literacy & SQL Analytics for Managers (DataCamp)
+32,Andrew Contreras,Male,50,Marketing,Content Lead,5,103189,8,5.4,3,100.0,0.27,Low,57.1,89.2,3,"Content Strategy, Social Media Management, Analytics & Reporting",Upskill in Content Strategy
+33,Ashley Hall,Male,43,IT,Tester,12,41254,9,4.37,1,78.8,0.53,Medium,57.1,89.2,3,"Selenium / Playwright, API Testing (Postman), CI/CD Quality Gates",Upskill in Selenium / Playwright
+34,Justin Lawrence,Male,33,IT,Engineer,8,152027,24,4.87,3,100.0,0.09,Low,85.7,96.4,1,Cloud Infrastructure (AWS/GCP),Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+35,Jessica Jones,Male,27,Marketing,SEO Analyst,4,109614,21,5.8,4,100.0,0.04,Low,71.4,92.8,2,"Search Engine Optimization, Content Strategy",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+36,Maria Smith,Male,32,Finance,Auditor,7,38475,25,1.0,3,58.2,0.45,Medium,71.4,92.8,2,"Financial Auditing, Tax Compliance",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+37,Bryan Garcia,Male,43,Marketing,Content Lead,6,72671,32,0.93,3,63.8,0.81,High,57.1,89.2,3,"Copywriting & Editing, SEO & Keyword Strategy, Analytics & Reporting",Upskill in Copywriting & Editing
+38,Breanna Chapman,Male,58,Finance,Accountant,15,34306,28,2.07,4,95.2,0.5,Medium,57.1,89.2,3,"Accounts Payable / Receivable, Payroll Management, Reconciliation",Upskill in Accounts Payable / Receivable
+39,William Meyer,Other,22,Finance,Auditor,14,73324,21,0.8,3,74.5,0.41,Medium,85.7,96.4,1,Internal Controls,Upskill in Internal Controls
+40,Matthew Maldonado,Male,39,Finance,Auditor,13,163576,12,5.93,3,100.0,0.22,Low,42.9,85.8,4,"Accounting, Financial Auditing, Tax Compliance, Internal Controls",Upskill in Accounting
+41,Julia Cobb,Male,22,Sales,Account Manager,9,49953,14,7.2,3,100.0,0.06,Low,66.7,91.7,2,"Upselling & Cross-selling, Strategic Account Planning",Upskill in Upselling & Cross-selling
+42,Nicholas Oliver,Female,41,Marketing,Content Lead,6,108906,8,7.23,3,100.0,0.32,Low,57.1,89.2,3,"Content Strategy, Copywriting & Editing, Social Media Management",Upskill in Content Strategy
+43,Whitney Crosby,Male,23,Marketing,Content Lead,15,78457,7,4.6,5,100.0,0.22,Low,57.1,89.2,3,"Brand Storytelling, Content Marketing, Social Media Management",Upskill in Brand Storytelling
+44,Carlos Wall,Female,55,IT,Engineer,14,37533,22,0.6,4,74.5,0.55,Medium,42.9,85.8,4,"Systems Architecture, CI/CD Pipelines, Python / Go, Monitoring & Logging",Upskill in Systems Architecture
+45,Jerry Walker,Female,33,Finance,Accountant,7,171225,23,0.57,4,67.5,0.4,Medium,71.4,92.8,2,"General Ledger, Payroll Management",Upskill in General Ledger
+46,Charles Le,Male,21,IT,Developer,9,101051,34,0.7,1,50.9,0.98,High,85.7,96.4,1,Git Version Control,Upskill in Git Version Control
+47,Amy Peterson PhD,Other,33,Sales,Account Manager,7,50654,38,-2.6,4,35.0,0.69,Medium,83.3,95.8,1,Upselling & Cross-selling,Upskill in Upselling & Cross-selling
+48,Kimberly Campbell,Other,22,Sales,Sales Executive,7,71622,27,0.27,4,72.4,0.79,High,42.9,85.8,4,"B2B Sales, Client Negotiation, Pipeline Forecasting, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+49,Daniel Smith,Male,23,Support,Helpdesk,4,132390,14,4.53,4,100.0,0.3,Low,57.1,89.2,3,"ServiceNow / ITSM, SLA Management, Active Directory",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+50,Steve Henry,Female,54,IT,Tester,2,179351,40,-1.83,3,34.0,0.96,High,42.9,85.8,4,"Selenium / Playwright, API Testing (Postman), Bug Lifecycle Management, Performance Testing (JMeter)",Upskill in Selenium / Playwright
+51,John Logan,Female,57,Sales,Sales Executive,10,50691,27,2.43,4,91.1,0.42,Medium,57.1,89.2,3,"Pipeline Forecasting, Lead Generation, Relationship Management",Upskill in Pipeline Forecasting
+52,Thomas Ellis,Other,52,Support,Support Engineer,14,163863,37,-1.23,4,49.3,0.77,High,57.1,89.2,3,"Log Analysis, Cloud Monitoring, Customer Communication",Upskill in Log Analysis
+53,Amanda White,Male,36,Marketing,SEO Analyst,4,134280,2,9.1,5,100.0,0.28,Low,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Content Strategy, Link Building",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+54,Nicholas Anderson,Female,52,Finance,Auditor,14,38519,6,6.47,2,100.0,0.43,Medium,57.1,89.2,3,"Accounting, Financial Auditing, Internal Controls",Upskill in Accounting
+55,Cassandra Knight,Female,35,Finance,Accountant,4,153394,34,1.2,3,70.1,0.58,Medium,71.4,92.8,2,"General Ledger, Payroll Management",Upskill in General Ledger
+56,Jessica Reeves,Male,48,IT,Developer,7,42964,1,7.63,2,100.0,0.44,Medium,42.9,85.8,4,"REST APIs, Git Version Control, Docker, Microservices Architecture",Upskill in REST APIs
+57,Mikayla Black,Other,30,IT,Developer,6,52745,16,4.47,1,95.0,0.5,Medium,57.1,89.2,3,"Python, JavaScript / React, SQL & Database Design",Production Python & REST API Engineering (Udemy for Business)
+58,Justin Wang,Other,34,Support,Helpdesk,13,37431,4,7.87,3,100.0,0.23,Low,28.6,82.2,5,"Technical Support, ServiceNow / ITSM, Network Basics, SLA Management, Active Directory",Upskill in Technical Support
+59,Kevin Moreno,Male,22,Marketing,SEO Analyst,3,124008,28,-0.43,4,68.7,0.72,High,42.9,85.8,4,"Keyword Research, Technical SEO Auditing, Link Building, Competitor SEO Analysis",Upskill in Keyword Research
+60,John Lewis,Male,48,HR,HR Executive,8,128442,18,6.23,4,100.0,0.15,Low,71.4,92.8,2,"Conflict Resolution, Payroll Coordination",Upskill in Conflict Resolution
+61,Heather Sosa,Other,57,HR,HR Manager,10,137226,36,2.63,2,79.3,0.82,High,71.4,92.8,2,"HR Strategy, Executive Leadership",Upskill in HR Strategy
+62,Phillip Hunter,Female,48,IT,Tester,5,150377,18,3.23,4,100.0,0.24,Low,57.1,89.2,3,"QA Testing, Selenium / Playwright, Performance Testing (JMeter)",Upskill in QA Testing
+63,Courtney Ayala,Female,27,HR,HR Manager,13,161874,2,8.43,5,100.0,0.28,Low,57.1,89.2,3,"Executive Leadership, Budgeting, Employee Engagement",Upskill in Executive Leadership
+64,Tammy Ramirez,Female,32,Support,Helpdesk,6,39558,19,3.03,3,100.0,0.25,Low,57.1,89.2,3,"Network Basics, SLA Management, Active Directory",Upskill in Network Basics
+65,James Morgan,Male,60,Sales,Account Manager,12,49620,29,3.53,3,100.0,0.38,Medium,66.7,91.7,2,"Key Account Management, Customer Success",Strategic Account Planning & Retention (LinkedIn Learning)
+66,Cody Barker,Female,34,Marketing,Content Lead,4,86861,30,4.0,3,100.0,0.48,Medium,57.1,89.2,3,"SEO & Keyword Strategy, Brand Storytelling, Social Media Management",Upskill in SEO & Keyword Strategy
+67,David Smith,Female,22,Sales,Sales Executive,2,155851,1,4.8,4,100.0,0.23,Low,57.1,89.2,3,"B2B Sales, Client Negotiation, Lead Generation",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+68,Amber Church,Female,21,Sales,Sales Executive,14,72637,31,-0.7,2,35.6,0.98,High,71.4,92.8,2,"B2B Sales, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+69,Tammy Perry,Female,26,Sales,Account Manager,13,151643,1,9.63,4,100.0,0.22,Low,50.0,87.5,3,"Customer Success, Upselling & Cross-selling, Client Retention",Upskill in Customer Success
+70,Sherry Cox,Female,37,Finance,Accountant,10,155727,26,-0.2,2,45.8,0.98,High,57.1,89.2,3,"General Ledger, Tax Preparation, Reconciliation",Upskill in General Ledger
+71,John Turner,Female,55,HR,HR Executive,7,71487,9,6.2,5,100.0,0.16,Low,71.4,92.8,2,"Talent Acquisition, Payroll Coordination",Strategic Talent Acquisition & Sourcing (SHRM Online)
+72,Brian Boyle,Female,23,Marketing,Content Lead,14,169631,0,8.5,4,100.0,0.32,Low,42.9,85.8,4,"Copywriting & Editing, SEO & Keyword Strategy, Content Marketing, Analytics & Reporting",Upskill in Copywriting & Editing
+73,Peggy Hawkins,Male,29,IT,Developer,4,56935,36,-2.03,4,39.6,0.68,Medium,71.4,92.8,2,"REST APIs, Microservices Architecture",Upskill in REST APIs
+74,Jared Montgomery,Female,32,Sales,Sales Executive,2,68664,21,4.3,3,100.0,0.13,Low,71.4,92.8,2,"Client Negotiation, Pipeline Forecasting",Upskill in Client Negotiation
+75,Thomas Clark,Other,31,IT,Developer,11,129732,29,3.87,4,100.0,0.51,Medium,42.9,85.8,4,"Python, REST APIs, SQL & Database Design, Docker",Production Python & REST API Engineering (Udemy for Business)
+76,Kyle Moyer,Female,21,HR,HR Manager,11,36008,11,6.8,2,100.0,0.37,Medium,85.7,96.4,1,HR Strategy,Upskill in HR Strategy
+77,Crystal Stevens,Other,25,Sales,Sales Executive,12,163071,15,5.83,4,100.0,0.29,Low,42.9,85.8,4,"B2B Sales, Client Negotiation, Pipeline Forecasting, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+78,Austin Reynolds,Other,26,Sales,Sales Executive,3,44713,21,1.3,3,70.3,0.63,Medium,57.1,89.2,3,"Client Negotiation, CRM Management, Market Analysis",Upskill in Client Negotiation
+79,Teresa Coleman,Male,46,Marketing,Content Lead,4,73718,10,7.33,4,100.0,0.09,Low,71.4,92.8,2,"Copywriting & Editing, Analytics & Reporting",Upskill in Copywriting & Editing
+80,Maria Tucker,Other,47,HR,HR Manager,11,142815,21,3.63,2,82.6,0.64,Medium,85.7,96.4,1,Organizational Development,Upskill in Organizational Development
+81,Louis Mcknight,Male,43,Support,Helpdesk,11,82938,18,3.57,4,100.0,0.25,Low,57.1,89.2,3,"ServiceNow / ITSM, Network Basics, Active Directory",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+82,Jerry Jones,Female,22,IT,Engineer,5,32356,15,6.33,2,100.0,0.5,Medium,42.9,85.8,4,"Cloud Infrastructure (AWS/GCP), Python / Go, Docker & Kubernetes, Monitoring & Logging",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+83,Erik Liu,Other,28,IT,Developer,5,150136,31,1.47,4,83.1,0.7,High,71.4,92.8,2,"Python, Docker",Production Python & REST API Engineering (Udemy for Business)
+84,Cynthia Fritz,Female,51,Finance,Auditor,4,103550,13,3.57,3,100.0,0.26,Low,42.9,85.8,4,"Financial Auditing, Tax Compliance, Internal Controls, Regulatory Reporting",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+85,Phillip Hayes,Other,31,Sales,Sales Executive,5,145121,23,1.73,2,76.7,0.98,High,57.1,89.2,3,"B2B Sales, Client Negotiation, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+86,Jenny Lee,Male,54,Sales,Sales Executive,8,152976,8,5.23,3,100.0,0.1,Low,71.4,92.8,2,"Client Negotiation, CRM Management",Upskill in Client Negotiation
+87,Jonathan Oliver,Male,44,Support,Support Engineer,5,43063,5,7.5,3,100.0,0.19,Low,42.9,85.8,4,"Log Analysis, Database Querying (SQL), Cloud Monitoring, Scripting (Python/Bash)",Upskill in Log Analysis
+88,Cynthia Bradley,Male,30,Marketing,Content Lead,12,33987,21,3.13,4,99.0,0.14,Low,85.7,96.4,1,Copywriting & Editing,Upskill in Copywriting & Editing
+89,David Johnson,Female,44,Marketing,SEO Analyst,11,145588,26,1.13,3,70.2,0.74,High,57.1,89.2,3,"Google Analytics / Search Console, Technical SEO Auditing, Link Building",Upskill in Google Analytics / Search Console
+90,Joan Smith,Other,32,Finance,Auditor,2,43235,38,0.4,3,61.1,0.7,High,57.1,89.2,3,"Accounting, Financial Auditing, Tax Compliance",Upskill in Accounting
+91,Richard Fuller,Other,60,IT,Tester,4,56904,31,2.63,3,88.5,0.33,Low,71.4,92.8,2,"QA Testing, Bug Lifecycle Management",Upskill in QA Testing
+92,Spencer Kennedy,Female,26,Finance,Accountant,2,62833,10,7.5,5,100.0,0.22,Low,42.9,85.8,4,"General Ledger, Financial Statements, Payroll Management, Reconciliation",Upskill in General Ledger
+93,Daniel Williams,Other,22,Sales,Account Manager,4,133108,16,6.47,3,100.0,0.26,Low,33.3,83.3,4,"Customer Success, Upselling & Cross-selling, Contract Negotiation, Client Retention",Upskill in Customer Success
+94,Bonnie Robinson,Male,35,Support,Helpdesk,5,65954,17,2.93,3,90.0,0.24,Low,42.9,85.8,4,"Hardware Diagnostics, Network Basics, SLA Management, Active Directory",Upskill in Hardware Diagnostics
+95,Amy Bowers,Female,58,Support,Support Engineer,7,99805,6,4.97,4,100.0,0.2,Low,42.9,85.8,4,"L2/L3 Technical Troubleshooting, Log Analysis, Database Querying (SQL), Incident Management",Upskill in L2/L3 Technical Troubleshooting
+96,Cody Jackson,Female,43,Marketing,Content Lead,14,156104,2,9.6,3,100.0,0.29,Low,57.1,89.2,3,"Content Strategy, Social Media Management, Analytics & Reporting",Upskill in Content Strategy
+97,Darlene Neal,Female,34,HR,HR Manager,3,115105,29,2.2,3,77.9,0.51,Medium,57.1,89.2,3,"HR Strategy, Budgeting, Employee Engagement",Upskill in HR Strategy
+98,Joshua Garcia,Female,52,Marketing,Content Lead,10,77462,22,2.6,3,87.8,0.18,Low,71.4,92.8,2,"Copywriting & Editing, Analytics & Reporting",Upskill in Copywriting & Editing
+99,Peggy French,Female,58,HR,HR Executive,12,136059,1,6.8,4,100.0,0.2,Low,71.4,92.8,2,"HR Policies & Compliance, Conflict Resolution",Upskill in HR Policies & Compliance
+100,Sean Davis DDS,Male,29,Sales,Account Manager,6,152981,14,5.7,3,100.0,0.07,Low,83.3,95.8,1,Contract Negotiation,Upskill in Contract Negotiation
+101,Denise Rush,Other,43,HR,HR Manager,11,107081,31,-1.03,3,37.3,0.61,Medium,85.7,96.4,1,Succession Planning,Upskill in Succession Planning
+102,Matthew Glenn,Female,30,HR,HR Executive,14,172259,38,-1.27,5,70.8,0.7,High,71.4,92.8,2,"HRIS Management, Payroll Coordination",Upskill in HRIS Management
+103,Kathleen Reed,Female,51,Sales,Account Manager,11,50979,31,-0.37,4,58.0,0.85,High,50.0,87.5,3,"Key Account Management, Client Retention, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+104,Samuel Fletcher,Female,27,Support,Support Engineer,9,98130,12,4.27,4,100.0,0.26,Low,57.1,89.2,3,"Log Analysis, Cloud Monitoring, Scripting (Python/Bash)",Upskill in Log Analysis
+105,Debra Holt,Other,59,Marketing,SEO Analyst,7,117953,34,2.03,3,70.4,0.54,Medium,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Keyword Research, Technical SEO Auditing",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+106,Jennifer Roberts,Female,31,Finance,Accountant,7,149459,23,1.4,2,63.7,0.98,High,42.9,85.8,4,"Accounts Payable / Receivable, QuickBooks / SAP, Payroll Management, Reconciliation",Upskill in Accounts Payable / Receivable
+107,Kaitlyn Kramer,Other,33,IT,Developer,13,68241,16,5.8,5,100.0,0.26,Low,57.1,89.2,3,"REST APIs, SQL & Database Design, Microservices Architecture",Upskill in REST APIs
+108,Paul Kennedy,Female,51,HR,HR Executive,7,47360,13,4.57,4,100.0,0.26,Low,42.9,85.8,4,"Talent Acquisition, HRIS Management, Conflict Resolution, Performance Management",Strategic Talent Acquisition & Sourcing (SHRM Online)
+109,Joshua Eaton,Other,49,Support,Support Engineer,7,126122,5,5.67,4,100.0,0.07,Low,71.4,92.8,2,"Database Querying (SQL), Scripting (Python/Bash)",Upskill in Database Querying (SQL)
+110,David Guerrero,Other,33,IT,Developer,13,77857,7,6.43,4,100.0,0.22,Low,57.1,89.2,3,"JavaScript / React, REST APIs, Microservices Architecture",Full-Stack React & Next.js Development (Frontend Masters)
+111,Brian Wilson,Male,53,Support,Helpdesk,4,50520,33,0.57,3,63.3,0.66,Medium,57.1,89.2,3,"Technical Support, SLA Management, Active Directory",Upskill in Technical Support
+112,Alexis Petty,Male,49,IT,Engineer,15,113247,34,1.7,1,62.3,0.98,High,42.9,85.8,4,"Cloud Infrastructure (AWS/GCP), CI/CD Pipelines, Python / Go, Docker & Kubernetes",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+113,David Matthews,Male,39,IT,Developer,11,74074,17,1.6,3,70.5,0.51,Medium,42.9,85.8,4,"Python, REST APIs, Docker, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+114,Melissa Snyder,Male,59,Support,Helpdesk,2,152599,27,3.77,4,100.0,0.43,Medium,42.9,85.8,4,"Hardware Diagnostics, Network Basics, SLA Management, Active Directory",Upskill in Hardware Diagnostics
+115,Dan Sullivan,Male,33,Sales,Account Manager,3,156093,0,9.83,3,100.0,0.25,Low,50.0,87.5,3,"Customer Success, Client Retention, Strategic Account Planning",Upskill in Customer Success
+116,Christine Burton,Other,22,Support,Helpdesk,15,153900,16,6.3,3,100.0,0.21,Low,42.9,85.8,4,"ServiceNow / ITSM, Hardware Diagnostics, Network Basics, Active Directory",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+117,Daniel Thomas,Other,43,Marketing,SEO Analyst,13,168316,29,4.03,2,97.4,0.91,High,71.4,92.8,2,"Search Engine Optimization, Content Strategy",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+118,Paige Ortiz,Female,52,HR,HR Executive,12,31840,29,-0.8,2,41.9,0.98,High,57.1,89.2,3,"HR Policies & Compliance, HRIS Management, Conflict Resolution",Upskill in HR Policies & Compliance
+119,Brett Booth,Female,31,Finance,Auditor,3,44728,6,7.63,3,100.0,0.25,Low,42.9,85.8,4,"Risk Assessment, Tax Compliance, Internal Controls, Regulatory Reporting",Mastering Risk Assessment in Modern Enterprises (LinkedIn Learning)
+120,Christopher Stone,Other,59,Sales,Sales Executive,15,144337,30,-0.67,3,56.0,0.72,High,71.4,92.8,2,"B2B Sales, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+121,Larry Craig,Male,45,IT,Developer,12,78575,39,-1.47,2,31.4,0.98,High,71.4,92.8,2,"JavaScript / React, SQL & Database Design",Full-Stack React & Next.js Development (Frontend Masters)
+122,William Lee,Male,59,Support,Support Engineer,11,121058,19,5.2,3,100.0,0.24,Low,42.9,85.8,4,"L2/L3 Technical Troubleshooting, Incident Management, Scripting (Python/Bash), Customer Communication",Upskill in L2/L3 Technical Troubleshooting
+123,Vicki Young,Female,49,Finance,Auditor,7,151344,12,3.93,4,100.0,0.06,Low,71.4,92.8,2,"Accounting, Excel & Financial Modeling",Upskill in Accounting
+124,Tara Lloyd,Female,44,IT,Engineer,3,67225,15,6.5,3,100.0,0.26,Low,42.9,85.8,4,"Systems Architecture, Linux Administration, Docker & Kubernetes, Monitoring & Logging",Upskill in Systems Architecture
+125,Elizabeth Hunt,Female,22,Finance,Accountant,10,172135,0,7.83,4,100.0,0.14,Low,71.4,92.8,2,"General Ledger, Financial Statements",Upskill in General Ledger
+126,Jennifer Perkins,Male,60,IT,Developer,8,91931,18,6.23,3,100.0,0.08,Low,71.4,92.8,2,"Docker, Microservices Architecture",Upskill in Docker
+127,Amanda Martin,Female,25,Sales,Sales Executive,14,89066,4,8.37,3,100.0,0.3,Low,57.1,89.2,3,"Pipeline Forecasting, Lead Generation, Relationship Management",Upskill in Pipeline Forecasting
+128,Michelle Christensen,Other,47,HR,HR Executive,5,72561,22,2.43,3,83.3,0.22,Low,42.9,85.8,4,"Employee Onboarding, HRIS Management, Conflict Resolution, Payroll Coordination",Upskill in Employee Onboarding
+129,Christina Romero,Female,56,Support,Support Engineer,8,68809,29,1.37,4,81.7,0.67,Medium,71.4,92.8,2,"Database Querying (SQL), Customer Communication",Upskill in Database Querying (SQL)
+130,Leah Smith,Female,35,IT,Tester,7,93279,2,7.27,5,100.0,0.28,Low,42.9,85.8,4,"QA Testing, Selenium / Playwright, Test Automation, Bug Lifecycle Management",Upskill in QA Testing
+131,Kenneth Jacobs,Female,27,Support,Helpdesk,10,55650,9,7.53,3,100.0,0.25,Low,57.1,89.2,3,"Customer Troubleshooting, Hardware Diagnostics, Network Basics",Upskill in Customer Troubleshooting
+132,Robert Smith,Other,59,HR,HR Executive,7,74552,11,6.97,5,100.0,0.32,Low,28.6,82.2,5,"Employee Onboarding, HR Policies & Compliance, HRIS Management, Conflict Resolution, Payroll Coordination",Upskill in Employee Onboarding
+133,Jamie Morgan,Other,55,Finance,Auditor,6,145869,22,4.77,5,100.0,0.27,Low,42.9,85.8,4,"Risk Assessment, Tax Compliance, Internal Controls, Excel & Financial Modeling",Mastering Risk Assessment in Modern Enterprises (LinkedIn Learning)
+134,Shaun Diaz,Male,45,HR,HR Manager,11,148129,9,5.03,3,100.0,0.27,Low,42.9,85.8,4,"Executive Leadership, Organizational Development, Budgeting, Employee Engagement",Upskill in Executive Leadership
+135,Christy Sanders,Female,38,Marketing,Content Lead,14,44652,9,5.2,3,100.0,0.09,Low,85.7,96.4,1,Content Marketing,Upskill in Content Marketing
+136,Gerald Simmons,Male,39,Marketing,SEO Analyst,2,178756,27,2.6,5,100.0,0.47,Medium,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Content Strategy, Link Building",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+137,Nathaniel Bryant II,Female,56,Finance,Auditor,9,110538,32,3.1,3,91.8,0.39,Medium,71.4,92.8,2,"Internal Controls, Regulatory Reporting",Upskill in Internal Controls
+138,Krista Kennedy,Female,40,IT,Engineer,12,39286,12,3.43,4,100.0,0.31,Low,57.1,89.2,3,"CI/CD Pipelines, Linux Administration, Monitoring & Logging",Upskill in CI/CD Pipelines
+139,Amanda Smith,Male,30,IT,Developer,4,55595,4,7.03,4,100.0,0.32,Low,57.1,89.2,3,"JavaScript / React, Docker, Microservices Architecture",Full-Stack React & Next.js Development (Frontend Masters)
+140,Dawn Burnett,Other,56,Sales,Account Manager,3,168010,32,0.77,5,86.4,0.6,Medium,66.7,91.7,2,"Contract Negotiation, Client Retention",Upskill in Contract Negotiation
+141,Linda Hernandez,Other,50,IT,Tester,10,71526,24,4.03,2,83.6,0.63,Medium,71.4,92.8,2,"Test Automation, CI/CD Quality Gates",Test Automation with Playwright & Selenium (TestAutomationU)
+142,Joshua Shaw,Male,23,Sales,Account Manager,7,152981,3,8.07,4,100.0,0.07,Low,66.7,91.7,2,"Key Account Management, Contract Negotiation",Strategic Account Planning & Retention (LinkedIn Learning)
+143,Timothy Andrade,Other,51,Support,Helpdesk,6,60483,16,2.97,3,94.5,0.07,Low,71.4,92.8,2,"Technical Support, SLA Management",Upskill in Technical Support
+144,Kelsey Nichols,Other,53,Sales,Account Manager,4,37564,10,8.0,3,100.0,0.14,Low,66.7,91.7,2,"Customer Success, Contract Negotiation",Upskill in Customer Success
+145,Garrett Garcia,Male,52,Support,Support Engineer,4,103473,11,7.8,3,100.0,0.25,Low,28.6,82.2,5,"Log Analysis, Database Querying (SQL), Incident Management, Cloud Monitoring, Customer Communication",Upskill in Log Analysis
+146,John Brown,Male,43,HR,HR Manager,14,98618,6,8.63,3,100.0,0.3,Low,28.6,82.2,5,"HR Strategy, Executive Leadership, Labor Law & Compliance, Budgeting, Employee Engagement",Upskill in HR Strategy
+147,Brian Foster,Other,28,Sales,Account Manager,10,69768,21,4.47,4,100.0,0.04,Low,66.7,91.7,2,"Key Account Management, Contract Negotiation",Strategic Account Planning & Retention (LinkedIn Learning)
+148,Daniel Lam,Other,32,Sales,Account Manager,11,124262,16,2.3,4,93.2,0.31,Low,50.0,87.5,3,"Key Account Management, Contract Negotiation, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+149,Antonio Myers,Female,48,Support,Support Engineer,11,31181,32,3.43,3,96.3,0.47,Medium,42.9,85.8,4,"Database Querying (SQL), Incident Management, Scripting (Python/Bash), Customer Communication",Upskill in Database Querying (SQL)
+150,Mary Fowler,Male,48,Marketing,Content Lead,10,139956,35,3.0,3,83.0,0.35,Medium,71.4,92.8,2,"Content Strategy, Copywriting & Editing",Upskill in Content Strategy
+151,David Wright,Other,34,HR,HR Executive,6,53489,23,0.9,3,59.2,0.51,Medium,42.9,85.8,4,"HR Policies & Compliance, HRIS Management, Conflict Resolution, Performance Management",Upskill in HR Policies & Compliance
+152,Nancy Jones,Other,34,Sales,Account Manager,5,123313,12,4.1,4,100.0,0.37,Medium,50.0,87.5,3,"Customer Success, Upselling & Cross-selling, Contract Negotiation",Upskill in Customer Success
+153,Robert Stone,Other,52,IT,Tester,4,34410,3,8.07,4,100.0,0.26,Low,57.1,89.2,3,"QA Testing, Performance Testing (JMeter), CI/CD Quality Gates",Upskill in QA Testing
+154,Kelli Ashley,Male,54,Marketing,SEO Analyst,9,35504,30,0.67,4,72.1,0.84,High,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Link Building, Competitor SEO Analysis",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+155,Austin Middleton,Other,41,HR,HR Executive,8,47809,37,-0.73,4,61.7,0.68,Medium,71.4,92.8,2,"HRIS Management, Conflict Resolution",Upskill in HRIS Management
+156,Aaron Franklin,Male,33,IT,Developer,2,152793,30,1.67,3,75.1,0.8,High,42.9,85.8,4,"Python, SQL & Database Design, Docker, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+157,Robert Sweeney,Male,51,HR,HR Executive,8,144222,23,2.73,4,96.8,0.14,Low,71.4,92.8,2,"Talent Acquisition, Performance Management",Strategic Talent Acquisition & Sourcing (SHRM Online)
+158,James Scott,Female,55,Marketing,Content Lead,7,122095,15,7.0,4,100.0,0.08,Low,71.4,92.8,2,"Content Strategy, Analytics & Reporting",Upskill in Content Strategy
+159,Stephen Harris,Other,60,Support,Support Engineer,13,176852,18,4.9,5,100.0,0.07,Low,71.4,92.8,2,"Log Analysis, Database Querying (SQL)",Upskill in Log Analysis
+160,Bryan Brown,Male,51,Sales,Sales Executive,15,138076,2,7.1,3,100.0,0.24,Low,57.1,89.2,3,"B2B Sales, Lead Generation, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+161,James Harrison,Male,53,Support,Helpdesk,2,166057,33,0.57,3,67.2,0.78,High,28.6,82.2,5,"Customer Troubleshooting, ServiceNow / ITSM, Network Basics, SLA Management, Active Directory",Upskill in Customer Troubleshooting
+162,Tracy Peterson,Female,35,Finance,Accountant,4,81547,37,1.1,4,78.8,0.74,High,57.1,89.2,3,"Accounts Payable / Receivable, Tax Preparation, Payroll Management",Upskill in Accounts Payable / Receivable
+163,Juan Garcia,Female,47,HR,HR Executive,8,78148,5,7.33,5,100.0,0.19,Low,42.9,85.8,4,"Employee Onboarding, HR Policies & Compliance, Performance Management, Payroll Coordination",Upskill in Employee Onboarding
+164,Carrie Huber,Female,25,HR,HR Manager,5,57534,39,1.7,3,75.0,0.8,High,57.1,89.2,3,"Labor Law & Compliance, Organizational Development, Employee Engagement",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+165,Craig Rodgers,Other,60,IT,Tester,15,77413,27,4.6,2,100.0,0.9,High,71.4,92.8,2,"Test Automation, Performance Testing (JMeter)",Test Automation with Playwright & Selenium (TestAutomationU)
+166,Jonathan Jones,Female,31,IT,Tester,2,143831,17,6.6,3,100.0,0.31,Low,42.9,85.8,4,"Selenium / Playwright, API Testing (Postman), Performance Testing (JMeter), CI/CD Quality Gates",Upskill in Selenium / Playwright
+167,Miss Erin Campbell,Female,28,HR,HR Manager,3,126163,6,7.13,3,100.0,0.14,Low,71.4,92.8,2,"Succession Planning, Organizational Development",Upskill in Succession Planning
+168,Brian Thomas,Other,34,HR,HR Executive,5,151729,35,3.0,3,89.2,0.34,Low,85.7,96.4,1,Performance Management,Upskill in Performance Management
+169,Joshua Crawford,Other,33,Support,Support Engineer,10,44773,6,7.63,3,100.0,0.06,Low,71.4,92.8,2,"Cloud Monitoring, Customer Communication",Upskill in Cloud Monitoring
+170,Rebecca Thomas,Female,60,Sales,Account Manager,5,115425,40,-2.17,1,20.0,0.98,High,66.7,91.7,2,"Customer Success, Client Retention",Upskill in Customer Success
+171,Olivia Villarreal,Other,60,Marketing,SEO Analyst,13,52297,39,2.03,5,100.0,0.46,Medium,42.9,85.8,4,"Google Analytics / Search Console, Keyword Research, Link Building, Competitor SEO Analysis",Upskill in Google Analytics / Search Console
+172,Mr. Ricardo Compton DDS,Female,22,HR,HR Manager,12,166881,6,8.63,3,100.0,0.04,Low,71.4,92.8,2,"Budgeting, Employee Engagement",Upskill in Budgeting
+173,Cory Preston,Female,39,Support,Support Engineer,13,38986,8,6.23,1,100.0,0.29,Low,71.4,92.8,2,"Log Analysis, Database Querying (SQL)",Upskill in Log Analysis
+174,Teresa Kirk,Other,43,Marketing,Content Lead,13,172355,27,2.77,4,100.0,0.46,Medium,57.1,89.2,3,"Copywriting & Editing, Brand Storytelling, Social Media Management",Upskill in Copywriting & Editing
+175,Rachel Long,Other,51,Marketing,SEO Analyst,2,43852,39,-0.13,4,58.6,0.8,High,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Content Strategy, Link Building",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+176,Michael Wallace,Male,24,Support,Helpdesk,9,134669,28,0.4,3,59.4,0.85,High,57.1,89.2,3,"Technical Support, Customer Troubleshooting, ServiceNow / ITSM",Upskill in Technical Support
+177,Ian Malone,Male,59,Support,Helpdesk,2,126177,10,5.5,1,96.0,0.57,Medium,42.9,85.8,4,"Customer Troubleshooting, Network Basics, SLA Management, Active Directory",Upskill in Customer Troubleshooting
+178,Mark Rodriguez,Male,49,Sales,Account Manager,15,47221,12,6.93,4,100.0,0.24,Low,33.3,83.3,4,"Key Account Management, Upselling & Cross-selling, Contract Negotiation, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+179,Ashley Owen,Other,34,Marketing,SEO Analyst,9,88315,22,2.77,2,78.3,0.82,High,57.1,89.2,3,"Search Engine Optimization, Link Building, Competitor SEO Analysis",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+180,Barbara Stokes,Male,49,Support,Helpdesk,14,139006,23,1.07,2,50.5,0.98,High,42.9,85.8,4,"Customer Troubleshooting, ServiceNow / ITSM, Network Basics, Active Directory",Upskill in Customer Troubleshooting
+181,Veronica Chapman,Other,30,Support,Helpdesk,4,124984,12,6.6,3,100.0,0.24,Low,28.6,82.2,5,"Technical Support, ServiceNow / ITSM, Hardware Diagnostics, Network Basics, Active Directory",Upskill in Technical Support
+182,Emily Gonzalez,Other,51,Support,Support Engineer,11,48033,8,8.07,3,100.0,0.31,Low,57.1,89.2,3,"Database Querying (SQL), Incident Management, Cloud Monitoring",Upskill in Database Querying (SQL)
+183,Colton Weaver,Female,28,Sales,Account Manager,8,176131,18,3.73,3,94.7,0.18,Low,66.7,91.7,2,"Key Account Management, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+184,Samuel Boyd,Other,58,Finance,Auditor,11,83089,4,4.87,2,100.0,0.37,Medium,42.9,85.8,4,"Accounting, Tax Compliance, Excel & Financial Modeling, Regulatory Reporting",Upskill in Accounting
+185,Sarah Bennett,Female,33,Sales,Sales Executive,3,65067,31,2.3,4,95.5,0.48,Medium,57.1,89.2,3,"Lead Generation, Market Analysis, Relationship Management",Upskill in Lead Generation
+186,Jane Carroll,Other,29,IT,Developer,11,35093,37,0.43,4,69.6,0.68,Medium,85.7,96.4,1,SQL & Database Design,Data Literacy & SQL Analytics for Managers (DataCamp)
+187,Zachary Guzman,Female,33,Support,Support Engineer,4,161083,16,4.3,3,100.0,0.08,Low,85.7,96.4,1,Cloud Monitoring,Upskill in Cloud Monitoring
+188,Michael Martin,Male,26,Support,Support Engineer,14,142521,23,4.57,4,100.0,0.22,Low,57.1,89.2,3,"Database Querying (SQL), Cloud Monitoring, Scripting (Python/Bash)",Upskill in Database Querying (SQL)
+189,Julie Stafford,Other,55,Finance,Accountant,4,98836,40,1.0,2,52.2,0.98,High,57.1,89.2,3,"Accounts Payable / Receivable, QuickBooks / SAP, Payroll Management",Upskill in Accounts Payable / Receivable
+190,Dylan Hansen MD,Other,23,Finance,Auditor,9,36596,20,2.33,5,100.0,0.33,Low,42.9,85.8,4,"Accounting, Financial Auditing, Internal Controls, Regulatory Reporting",Upskill in Accounting
+191,Michael Rangel,Male,25,HR,HR Executive,3,79311,9,4.87,4,100.0,0.23,Low,42.9,85.8,4,"Talent Acquisition, Employee Onboarding, HRIS Management, Conflict Resolution",Strategic Talent Acquisition & Sourcing (SHRM Online)
+192,Bryan Brock,Other,51,IT,Engineer,6,177547,39,-0.47,3,52.7,0.64,Medium,71.4,92.8,2,"CI/CD Pipelines, Linux Administration",Upskill in CI/CD Pipelines
+193,Alison Cunningham,Male,51,Support,Support Engineer,6,139711,39,-2.47,5,49.5,0.86,High,57.1,89.2,3,"L2/L3 Technical Troubleshooting, Cloud Monitoring, Customer Communication",Upskill in L2/L3 Technical Troubleshooting
+194,Sarah Lawson,Female,23,Finance,Auditor,14,133661,25,3.17,4,100.0,0.07,Low,71.4,92.8,2,"Financial Auditing, Regulatory Reporting",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+195,Patrick Daniels,Other,55,Support,Helpdesk,8,119959,26,4.13,3,100.0,0.54,Medium,57.1,89.2,3,"Customer Troubleshooting, ServiceNow / ITSM, Active Directory",Upskill in Customer Troubleshooting
+196,Kimberly Perkins,Male,29,HR,HR Manager,13,41236,37,-0.23,4,59.9,0.78,High,42.9,85.8,4,"HR Strategy, Executive Leadership, Succession Planning, Employee Engagement",Upskill in HR Strategy
+197,John Thomas,Male,36,HR,HR Executive,5,60667,4,7.37,4,100.0,0.11,Low,71.4,92.8,2,"HR Policies & Compliance, Conflict Resolution",Upskill in HR Policies & Compliance
+198,Frank Smith,Male,57,Finance,Accountant,11,85219,20,5.17,4,100.0,0.26,Low,57.1,89.2,3,"Financial Statements, Tax Preparation, QuickBooks / SAP",Corporate Financial Statements & Reconciliation (Wharton Online)
+199,Christopher Cooper,Male,22,IT,Tester,8,113299,13,6.23,2,100.0,0.45,Medium,57.1,89.2,3,"Selenium / Playwright, Test Automation, CI/CD Quality Gates",Upskill in Selenium / Playwright
+200,Kelly Jackson,Other,35,IT,Engineer,4,73218,39,1.87,2,58.9,0.98,High,42.9,85.8,4,"Systems Architecture, Linux Administration, Docker & Kubernetes, Monitoring & Logging",Upskill in Systems Architecture
+201,Alexandra Johnson,Other,51,Finance,Accountant,10,166935,17,1.77,5,96.0,0.42,Medium,71.4,92.8,2,"Accounts Payable / Receivable, QuickBooks / SAP",Upskill in Accounts Payable / Receivable
+202,Leslie Zimmerman,Female,21,Finance,Accountant,10,149268,25,4.33,5,100.0,0.18,Low,42.9,85.8,4,"General Ledger, Financial Statements, QuickBooks / SAP, Payroll Management",Upskill in General Ledger
+203,Paul Murray,Female,24,Marketing,SEO Analyst,2,167109,22,3.1,3,88.1,0.26,Low,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Keyword Research, Technical SEO Auditing",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+204,Shannon Hall,Female,23,HR,HR Executive,5,44615,10,4.67,5,100.0,0.36,Medium,57.1,89.2,3,"Employee Onboarding, Conflict Resolution, Payroll Coordination",Upskill in Employee Onboarding
+205,Eric Mitchell,Female,40,Marketing,Content Lead,6,174938,33,-0.93,3,43.5,0.83,High,42.9,85.8,4,"SEO & Keyword Strategy, Brand Storytelling, Content Marketing, Analytics & Reporting",Upskill in SEO & Keyword Strategy
+206,Erica Murphy,Male,55,Sales,Sales Executive,9,141609,8,4.73,4,100.0,0.25,Low,57.1,89.2,3,"Client Negotiation, Lead Generation, Market Analysis",Upskill in Client Negotiation
+207,David Bradford,Male,48,Support,Helpdesk,2,143395,26,-0.2,2,38.2,0.98,High,57.1,89.2,3,"Technical Support, ServiceNow / ITSM, Hardware Diagnostics",Upskill in Technical Support
+208,William Lopez MD,Male,48,Support,Support Engineer,6,91560,32,-1.07,4,51.9,0.71,High,42.9,85.8,4,"Log Analysis, Database Querying (SQL), Cloud Monitoring, Customer Communication",Upskill in Log Analysis
+209,David Salas,Female,42,Sales,Account Manager,2,178594,4,9.03,3,100.0,0.14,Low,66.7,91.7,2,"Customer Success, Upselling & Cross-selling",Upskill in Customer Success
+210,Sean Wilcox,Other,49,Sales,Sales Executive,12,136861,6,4.3,3,100.0,0.12,Low,71.4,92.8,2,"CRM Management, Lead Generation",Modern CRM & Sales Pipeline Mastery (HubSpot Academy)
+211,Tommy Rios,Female,48,Finance,Auditor,7,70640,13,4.73,2,100.0,0.49,Medium,57.1,89.2,3,"Risk Assessment, Tax Compliance, Excel & Financial Modeling",Mastering Risk Assessment in Modern Enterprises (LinkedIn Learning)
+212,Peter Wilson,Male,60,Sales,Account Manager,15,86918,35,-1.17,5,59.7,0.68,Medium,66.7,91.7,2,"Upselling & Cross-selling, Contract Negotiation",Upskill in Upselling & Cross-selling
+213,William Welch,Female,27,Sales,Sales Executive,7,87099,9,4.2,3,99.7,0.2,Low,85.7,96.4,1,Pipeline Forecasting,Upskill in Pipeline Forecasting
+214,Austin Bradford,Other,52,Sales,Account Manager,8,33037,18,5.4,3,100.0,0.3,Low,33.3,83.3,4,"Customer Success, Contract Negotiation, Client Retention, Strategic Account Planning",Upskill in Customer Success
+215,Veronica White,Female,38,HR,HR Manager,8,143214,36,-1.87,5,49.7,0.73,High,57.1,89.2,3,"HR Strategy, Budgeting, Employee Engagement",Upskill in HR Strategy
+216,Zachary Smith,Female,30,Marketing,SEO Analyst,3,168202,17,4.27,5,100.0,0.3,Low,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Technical SEO Auditing, Content Strategy",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+217,David King,Other,25,IT,Engineer,15,151301,31,-1.2,4,54.9,0.67,Medium,71.4,92.8,2,"Python / Go, Monitoring & Logging",Upskill in Python / Go
+218,Kathryn Pham,Male,35,IT,Developer,3,32158,10,5.0,4,100.0,0.26,Low,57.1,89.2,3,"REST APIs, Git Version Control, Microservices Architecture",Upskill in REST APIs
+219,Kevin Flores,Other,42,Finance,Auditor,2,122405,16,4.13,3,100.0,0.28,Low,57.1,89.2,3,"Accounting, Financial Auditing, Risk Assessment",Upskill in Accounting
+220,Mike Myers,Female,39,Support,Support Engineer,2,33150,3,6.07,4,100.0,0.04,Low,71.4,92.8,2,"L2/L3 Technical Troubleshooting, Incident Management",Upskill in L2/L3 Technical Troubleshooting
+221,Karen Newton,Other,55,Sales,Sales Executive,13,70445,25,3.17,2,90.6,0.81,High,28.6,82.2,5,"Client Negotiation, CRM Management, Lead Generation, Market Analysis, Relationship Management",Upskill in Client Negotiation
+222,Kimberly Richardson,Female,24,Marketing,Content Lead,6,173731,28,0.23,4,65.4,0.78,High,42.9,85.8,4,"Content Strategy, Copywriting & Editing, Social Media Management, Analytics & Reporting",Upskill in Content Strategy
+223,Beth Rivera,Female,26,HR,HR Executive,9,35989,16,5.8,3,100.0,0.05,Low,71.4,92.8,2,"Employee Onboarding, Conflict Resolution",Upskill in Employee Onboarding
+224,Carlos Garrison,Other,26,Sales,Account Manager,14,87882,32,2.6,3,75.4,0.58,Medium,50.0,87.5,3,"Customer Success, Contract Negotiation, Strategic Account Planning",Upskill in Customer Success
+225,Michael Stevenson,Other,44,Sales,Sales Executive,9,125274,38,1.07,1,54.4,0.98,High,57.1,89.2,3,"CRM Management, Market Analysis, Relationship Management",Modern CRM & Sales Pipeline Mastery (HubSpot Academy)
+226,Christopher Vance,Female,32,Finance,Auditor,6,69596,8,4.23,3,100.0,0.08,Low,85.7,96.4,1,Tax Compliance,Corporate Tax Compliance & Reporting (Udemy for Business)
+227,Michael Simon,Male,21,Support,Helpdesk,4,150477,30,2.17,3,79.8,0.3,Low,71.4,92.8,2,"Customer Troubleshooting, Active Directory",Upskill in Customer Troubleshooting
+228,Connie White,Other,39,Support,Support Engineer,2,147300,26,2.8,3,95.2,0.53,Medium,28.6,82.2,5,"Log Analysis, Database Querying (SQL), Cloud Monitoring, Scripting (Python/Bash), Customer Communication",Upskill in Log Analysis
+229,Eugene Hammond,Male,28,HR,HR Manager,6,137113,9,7.2,3,100.0,0.08,Low,71.4,92.8,2,"Labor Law & Compliance, Employee Engagement",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+230,Robert Hunter,Other,54,Finance,Auditor,9,43249,4,5.87,4,100.0,0.2,Low,57.1,89.2,3,"Risk Assessment, Tax Compliance, Internal Controls",Mastering Risk Assessment in Modern Enterprises (LinkedIn Learning)
+231,Lisa Hubbard,Female,27,Finance,Accountant,11,35448,40,-1.33,4,53.3,0.73,High,85.7,96.4,1,QuickBooks / SAP,Upskill in QuickBooks / SAP
+232,Deborah Stephens,Other,56,HR,HR Manager,12,122891,14,3.03,4,100.0,0.11,Low,71.4,92.8,2,"Succession Planning, Budgeting",Upskill in Succession Planning
+233,Sandra Jordan,Female,24,IT,Developer,6,42837,34,2.37,4,93.8,0.51,Medium,57.1,89.2,3,"REST APIs, Docker, Microservices Architecture",Upskill in REST APIs
+234,Thomas Rogers,Female,29,Finance,Accountant,13,74702,15,5.17,3,100.0,0.24,Low,57.1,89.2,3,"Tax Preparation, QuickBooks / SAP, Reconciliation",Upskill in Tax Preparation
+235,William Schneider,Female,38,HR,HR Executive,14,112040,37,2.1,3,76.4,0.45,Medium,42.9,85.8,4,"Employee Onboarding, HRIS Management, Conflict Resolution, Performance Management",Upskill in Employee Onboarding
+236,Alicia Colon PhD,Female,35,Finance,Accountant,11,170493,17,5.6,3,100.0,0.15,Low,42.9,85.8,4,"General Ledger, Tax Preparation, Payroll Management, Reconciliation",Upskill in General Ledger
+237,Justin Sanchez,Male,42,Sales,Account Manager,2,44817,9,4.03,3,91.8,0.04,Low,66.7,91.7,2,"Client Retention, Strategic Account Planning",Upskill in Client Retention
+238,Andrew Coleman,Female,56,Support,Support Engineer,2,39070,7,5.27,3,100.0,0.19,Low,71.4,92.8,2,"Log Analysis, Database Querying (SQL)",Upskill in Log Analysis
+239,James Hall,Female,32,Finance,Auditor,3,107827,15,2.17,3,73.5,0.11,Low,71.4,92.8,2,"Accounting, Risk Assessment",Upskill in Accounting
+240,Daniel Walton,Female,44,IT,Developer,5,170873,14,4.37,2,94.9,0.51,Medium,57.1,89.2,3,"REST APIs, SQL & Database Design, Docker",Upskill in REST APIs
+241,Noah Williams,Other,55,Support,Helpdesk,10,162151,9,5.87,3,100.0,0.28,Low,57.1,89.2,3,"Technical Support, ServiceNow / ITSM, Hardware Diagnostics",Upskill in Technical Support
+242,Alicia Baker,Female,42,Marketing,Content Lead,12,170095,2,9.27,5,100.0,0.07,Low,71.4,92.8,2,"Brand Storytelling, Social Media Management",Upskill in Brand Storytelling
+243,Mr. Walter Cardenas,Female,50,Support,Support Engineer,13,155425,8,6.23,3,100.0,0.33,Low,57.1,89.2,3,"L2/L3 Technical Troubleshooting, Log Analysis, Cloud Monitoring",Upskill in L2/L3 Technical Troubleshooting
+244,Robert Avila,Other,56,Support,Helpdesk,2,75142,5,5.0,3,100.0,0.26,Low,42.9,85.8,4,"Technical Support, Hardware Diagnostics, Network Basics, SLA Management",Upskill in Technical Support
+245,John Lee,Other,25,Sales,Sales Executive,8,156837,40,1.17,2,60.1,0.98,High,42.9,85.8,4,"B2B Sales, CRM Management, Pipeline Forecasting, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+246,Sarah Shelton,Female,26,Finance,Accountant,6,32981,40,-2.17,3,37.3,0.72,High,85.7,96.4,1,Payroll Management,Upskill in Payroll Management
+247,Reginald Perez,Male,39,IT,Engineer,13,171542,35,0.0,3,53.0,0.72,High,57.1,89.2,3,"Systems Architecture, Cloud Infrastructure (AWS/GCP), Docker & Kubernetes",Upskill in Systems Architecture
+248,Tammy Anderson,Female,23,IT,Engineer,12,164893,21,3.63,2,92.2,0.81,High,57.1,89.2,3,"Systems Architecture, Cloud Infrastructure (AWS/GCP), Linux Administration",Upskill in Systems Architecture
+249,Daniel Medina,Other,49,HR,HR Executive,13,123450,20,4.5,3,100.0,0.24,Low,42.9,85.8,4,"HR Policies & Compliance, Conflict Resolution, Performance Management, Payroll Coordination",Upskill in HR Policies & Compliance
+250,Jessica Nunez,Male,24,IT,Developer,6,99973,5,9.0,5,100.0,0.04,Low,71.4,92.8,2,"Python, Docker",Production Python & REST API Engineering (Udemy for Business)
+251,Matthew Rowe,Other,22,Finance,Accountant,11,71184,29,1.37,3,66.6,0.72,High,42.9,85.8,4,"General Ledger, Accounts Payable / Receivable, QuickBooks / SAP, Payroll Management",Upskill in General Ledger
+252,Patrick Armstrong,Male,56,Support,Helpdesk,4,169664,33,-0.6,4,60.8,0.88,High,28.6,82.2,5,"Technical Support, ServiceNow / ITSM, Hardware Diagnostics, Network Basics, Active Directory",Upskill in Technical Support
+253,Thomas Moore,Female,50,Marketing,SEO Analyst,6,102015,8,6.57,3,100.0,0.32,Low,28.6,82.2,5,"Keyword Research, Technical SEO Auditing, Content Strategy, Link Building, Competitor SEO Analysis",Upskill in Keyword Research
+254,Shannon Green,Female,42,IT,Engineer,11,83883,16,4.63,2,100.0,0.4,Medium,28.6,82.2,5,"Cloud Infrastructure (AWS/GCP), CI/CD Pipelines, Linux Administration, Python / Go, Monitoring & Logging",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+255,Daniel Miller,Male,44,Sales,Sales Executive,11,59968,32,0.93,4,73.8,0.71,High,71.4,92.8,2,"Client Negotiation, Lead Generation",Upskill in Client Negotiation
+256,Megan Johnson,Male,56,HR,HR Manager,15,146542,39,1.2,4,81.6,0.65,Medium,71.4,92.8,2,"Labor Law & Compliance, Organizational Development",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+257,Samantha Hill,Other,54,Finance,Accountant,6,91897,39,-2.63,1,20.0,0.98,High,71.4,92.8,2,"Tax Preparation, QuickBooks / SAP",Upskill in Tax Preparation
+258,Laurie Martinez,Female,58,HR,HR Executive,9,178781,22,1.77,4,83.1,0.54,Medium,57.1,89.2,3,"Employee Onboarding, Conflict Resolution, Performance Management",Upskill in Employee Onboarding
+259,Jade Stephens,Female,26,Finance,Auditor,5,109535,15,5.83,3,100.0,0.08,Low,85.7,96.4,1,Regulatory Reporting,Upskill in Regulatory Reporting
+260,Andrew Clark,Female,37,HR,HR Manager,4,165808,24,3.7,4,100.0,0.12,Low,71.4,92.8,2,"Executive Leadership, Budgeting",Upskill in Executive Leadership
+261,Alexis Flores,Male,32,Marketing,SEO Analyst,3,84858,17,5.27,3,100.0,0.09,Low,71.4,92.8,2,"Keyword Research, Link Building",Upskill in Keyword Research
+262,Erin Gonzalez,Female,60,IT,Tester,2,77093,39,0.7,2,48.6,0.98,High,57.1,89.2,3,"QA Testing, Performance Testing (JMeter), CI/CD Quality Gates",Upskill in QA Testing
+263,Timothy Li,Female,55,IT,Engineer,7,131743,26,4.3,2,89.7,0.98,High,42.9,85.8,4,"Systems Architecture, CI/CD Pipelines, Python / Go, Monitoring & Logging",Upskill in Systems Architecture
+264,Mark Ford,Male,55,Finance,Auditor,11,134434,28,2.57,3,85.5,0.52,Medium,28.6,82.2,5,"Financial Auditing, Risk Assessment, Tax Compliance, Internal Controls, Regulatory Reporting",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+265,Christopher Mejia,Male,24,HR,HR Executive,9,136945,28,1.9,4,85.1,0.83,High,57.1,89.2,3,"HR Policies & Compliance, Performance Management, Payroll Coordination",Upskill in HR Policies & Compliance
+266,Andrea Bolton,Female,43,Marketing,Content Lead,7,135916,2,6.77,3,100.0,0.1,Low,85.7,96.4,1,Brand Storytelling,Upskill in Brand Storytelling
+267,Noah Gray,Male,57,Support,Support Engineer,12,93082,12,2.6,3,82.2,0.12,Low,71.4,92.8,2,"Incident Management, Customer Communication",Upskill in Incident Management
+268,Tommy Castillo,Male,29,Marketing,Content Lead,2,65014,6,8.13,3,100.0,0.08,Low,71.4,92.8,2,"Content Strategy, Analytics & Reporting",Upskill in Content Strategy
+269,Carolyn Freeman,Other,30,HR,HR Executive,4,112960,11,6.13,2,100.0,0.37,Medium,71.4,92.8,2,"Conflict Resolution, Payroll Coordination",Upskill in Conflict Resolution
+270,Kaitlyn Wheeler,Other,52,HR,HR Executive,8,132414,15,3.83,3,100.0,0.26,Low,28.6,82.2,5,"Talent Acquisition, Employee Onboarding, HR Policies & Compliance, HRIS Management, Conflict Resolution",Strategic Talent Acquisition & Sourcing (SHRM Online)
+271,Melissa Bryant,Other,35,Finance,Accountant,5,143004,6,8.3,3,100.0,0.17,Low,42.9,85.8,4,"Financial Statements, Accounts Payable / Receivable, QuickBooks / SAP, Reconciliation",Corporate Financial Statements & Reconciliation (Wharton Online)
+272,Dr. Kelly Porter DDS,Male,56,Marketing,Content Lead,6,54712,10,3.33,1,83.4,0.22,Low,71.4,92.8,2,"Copywriting & Editing, Content Marketing",Upskill in Copywriting & Editing
+273,Mark Reynolds,Male,30,Sales,Account Manager,7,153348,31,3.63,5,100.0,0.5,Medium,33.3,83.3,4,"Key Account Management, Customer Success, Client Retention, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+274,Nicholas Garza,Male,55,IT,Tester,10,174508,20,5.33,3,100.0,0.14,Low,71.4,92.8,2,"QA Testing, Performance Testing (JMeter)",Upskill in QA Testing
+275,James Singh,Female,26,HR,HR Manager,6,144116,31,3.47,4,100.0,0.31,Low,85.7,96.4,1,HR Strategy,Upskill in HR Strategy
+276,Laura Russell,Male,56,IT,Engineer,6,159885,3,6.73,1,100.0,0.48,Medium,42.9,85.8,4,"Systems Architecture, Cloud Infrastructure (AWS/GCP), Linux Administration, Docker & Kubernetes",Upskill in Systems Architecture
+277,Mr. Timothy Ray DDS,Female,27,Sales,Account Manager,15,169508,17,6.1,4,100.0,0.17,Low,33.3,83.3,4,"Upselling & Cross-selling, Contract Negotiation, Client Retention, Strategic Account Planning",Upskill in Upselling & Cross-selling
+278,Steven Moreno,Male,38,Sales,Sales Executive,2,177664,39,1.7,2,67.1,0.98,High,42.9,85.8,4,"B2B Sales, Pipeline Forecasting, Lead Generation, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+279,George Ingram,Male,21,Sales,Account Manager,10,47481,15,5.0,3,100.0,0.31,Low,50.0,87.5,3,"Key Account Management, Customer Success, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+280,Jason Leach,Other,46,Finance,Auditor,3,30120,8,3.9,4,100.0,0.05,Low,71.4,92.8,2,"Risk Assessment, Tax Compliance",Mastering Risk Assessment in Modern Enterprises (LinkedIn Learning)
+281,Norma Gardner,Other,50,Sales,Account Manager,7,142858,15,3.0,4,98.1,0.25,Low,50.0,87.5,3,"Key Account Management, Contract Negotiation, Client Retention",Strategic Account Planning & Retention (LinkedIn Learning)
+282,Theresa Morgan,Female,31,Finance,Accountant,15,105734,21,3.97,3,100.0,0.08,Low,71.4,92.8,2,"Tax Preparation, Payroll Management",Upskill in Tax Preparation
+283,Nicholas Klein,Other,51,HR,HR Manager,13,162145,33,-0.27,2,39.3,0.98,High,71.4,92.8,2,"Budgeting, Employee Engagement",Upskill in Budgeting
+284,Taylor West,Other,24,Support,Helpdesk,13,46636,28,3.07,2,77.2,0.94,High,57.1,89.2,3,"ServiceNow / ITSM, Hardware Diagnostics, SLA Management",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+285,Alexandra Hill,Male,32,Support,Helpdesk,15,170728,37,2.43,3,82.1,0.51,Medium,57.1,89.2,3,"Technical Support, Customer Troubleshooting, Active Directory",Upskill in Technical Support
+286,Matthew Clark,Female,27,Sales,Sales Executive,11,133923,13,2.4,4,98.5,0.08,Low,71.4,92.8,2,"B2B Sales, Pipeline Forecasting",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+287,Gabriella Smith,Other,57,IT,Developer,4,79891,16,1.97,5,86.0,0.57,Medium,57.1,89.2,3,"JavaScript / React, Docker, Microservices Architecture",Full-Stack React & Next.js Development (Frontend Masters)
+288,Valerie Turner,Female,21,Marketing,SEO Analyst,13,58705,37,-1.07,3,38.0,0.9,High,57.1,89.2,3,"Search Engine Optimization, Content Strategy, Link Building",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+289,Ricky Morgan,Male,22,Marketing,Content Lead,10,119161,12,5.43,4,100.0,0.26,Low,57.1,89.2,3,"Copywriting & Editing, SEO & Keyword Strategy, Social Media Management",Upskill in Copywriting & Editing
+290,Amy Lynch,Female,38,Sales,Sales Executive,3,122362,22,4.77,3,100.0,0.11,Low,71.4,92.8,2,"Client Negotiation, Market Analysis",Upskill in Client Negotiation
+291,Michael White,Other,57,IT,Developer,8,122097,21,4.97,3,100.0,0.13,Low,42.9,85.8,4,"JavaScript / React, REST APIs, Git Version Control, Microservices Architecture",Full-Stack React & Next.js Development (Frontend Masters)
+292,Stephanie Smith,Other,53,Sales,Sales Executive,9,99804,21,4.3,3,100.0,0.04,Low,71.4,92.8,2,"Pipeline Forecasting, Relationship Management",Upskill in Pipeline Forecasting
+293,William Norman,Female,21,HR,HR Manager,8,68709,33,-0.1,4,57.8,0.85,High,42.9,85.8,4,"HR Strategy, Executive Leadership, Budgeting, Employee Engagement",Upskill in HR Strategy
+294,Ricky Clark,Female,29,HR,HR Manager,8,73431,25,0.5,5,84.3,0.63,Medium,42.9,85.8,4,"Labor Law & Compliance, Succession Planning, Budgeting, Employee Engagement",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+295,Melvin Edwards,Male,45,Support,Helpdesk,2,152937,27,4.6,5,100.0,0.49,Medium,42.9,85.8,4,"Technical Support, Network Basics, SLA Management, Active Directory",Upskill in Technical Support
+296,Michael Ramirez,Male,24,Support,Support Engineer,8,50829,25,2.5,3,80.6,0.31,Low,57.1,89.2,3,"Database Querying (SQL), Scripting (Python/Bash), Customer Communication",Upskill in Database Querying (SQL)
+297,Cheryl Crawford,Female,22,Support,Helpdesk,14,91538,6,5.63,3,100.0,0.2,Low,57.1,89.2,3,"Technical Support, ServiceNow / ITSM, Active Directory",Upskill in Technical Support
+298,Danielle Gonzalez,Other,53,Sales,Account Manager,10,72612,15,5.67,4,100.0,0.29,Low,33.3,83.3,4,"Key Account Management, Customer Success, Contract Negotiation, Client Retention",Strategic Account Planning & Retention (LinkedIn Learning)
+299,Brian Stein,Male,26,HR,HR Manager,10,113808,7,7.77,3,100.0,0.05,Low,85.7,96.4,1,Executive Leadership,Upskill in Executive Leadership
+300,Robert Dudley,Female,30,Finance,Accountant,8,78248,39,-0.47,4,59.1,0.76,High,57.1,89.2,3,"Tax Preparation, QuickBooks / SAP, Payroll Management",Upskill in Tax Preparation
+301,Janice Griffin,Male,22,Marketing,Content Lead,6,36366,20,6.0,4,100.0,0.33,Low,57.1,89.2,3,"Content Strategy, Brand Storytelling, Content Marketing",Upskill in Content Strategy
+302,Vanessa Phillips,Other,34,Finance,Auditor,4,124118,5,4.0,3,100.0,0.04,Low,71.4,92.8,2,"Accounting, Financial Auditing",Upskill in Accounting
+303,Jared Walters,Other,42,Sales,Account Manager,4,173076,35,-2.0,4,43.5,0.89,High,50.0,87.5,3,"Key Account Management, Contract Negotiation, Client Retention",Strategic Account Planning & Retention (LinkedIn Learning)
+304,Richard Miller,Male,30,Sales,Sales Executive,6,60148,5,7.67,3,100.0,0.1,Low,71.4,92.8,2,"Client Negotiation, Relationship Management",Upskill in Client Negotiation
+305,Brandi Lewis,Female,48,IT,Developer,3,179876,17,6.6,3,100.0,0.08,Low,71.4,92.8,2,"JavaScript / React, SQL & Database Design",Full-Stack React & Next.js Development (Frontend Masters)
+306,Nancy Taylor DVM,Female,50,IT,Engineer,12,71648,11,5.8,3,100.0,0.17,Low,42.9,85.8,4,"Systems Architecture, Cloud Infrastructure (AWS/GCP), CI/CD Pipelines, Python / Go",Upskill in Systems Architecture
+307,Michael Harris,Female,50,Finance,Auditor,15,129341,40,0.83,4,74.8,0.75,High,42.9,85.8,4,"Accounting, Tax Compliance, Excel & Financial Modeling, Regulatory Reporting",Upskill in Accounting
+308,Nicole Robles,Male,32,HR,HR Manager,8,154022,11,5.47,3,100.0,0.23,Low,42.9,85.8,4,"Executive Leadership, Labor Law & Compliance, Succession Planning, Employee Engagement",Upskill in Executive Leadership
+309,Samantha Miller,Male,49,IT,Developer,10,38841,20,3.17,3,94.7,0.24,Low,28.6,82.2,5,"JavaScript / React, REST APIs, SQL & Database Design, Docker, Microservices Architecture",Full-Stack React & Next.js Development (Frontend Masters)
+310,Andrea Perez,Other,28,HR,HR Manager,15,54740,24,0.87,4,75.2,0.4,Medium,71.4,92.8,2,"Labor Law & Compliance, Budgeting",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+311,Scott Flores,Female,59,HR,HR Executive,14,53573,2,8.77,2,100.0,0.41,Medium,42.9,85.8,4,"Talent Acquisition, Employee Onboarding, HR Policies & Compliance, Payroll Coordination",Strategic Talent Acquisition & Sourcing (SHRM Online)
+312,Paul Jones,Male,37,Support,Helpdesk,14,176277,9,7.87,4,100.0,0.07,Low,71.4,92.8,2,"Technical Support, Network Basics",Upskill in Technical Support
+313,John Johns,Other,27,Support,Support Engineer,12,107565,23,4.23,2,100.0,0.96,High,42.9,85.8,4,"L2/L3 Technical Troubleshooting, Incident Management, Cloud Monitoring, Scripting (Python/Bash)",Upskill in L2/L3 Technical Troubleshooting
+314,Lawrence Sellers,Other,47,HR,HR Manager,3,46944,31,1.3,2,65.0,0.98,High,42.9,85.8,4,"HR Strategy, Executive Leadership, Labor Law & Compliance, Budgeting",Upskill in HR Strategy
+315,Joe Schultz,Male,35,Sales,Sales Executive,15,45633,37,0.77,3,77.5,0.76,High,42.9,85.8,4,"B2B Sales, Client Negotiation, Pipeline Forecasting, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+316,Sandra Snow,Male,35,Finance,Accountant,14,167197,10,7.33,3,100.0,0.11,Low,71.4,92.8,2,"General Ledger, Financial Statements",Upskill in General Ledger
+317,Beverly Wheeler,Male,55,Sales,Account Manager,7,112507,13,5.73,5,100.0,0.11,Low,66.7,91.7,2,"Key Account Management, Customer Success",Strategic Account Planning & Retention (LinkedIn Learning)
+318,Ms. Amanda Wallace MD,Female,33,Sales,Account Manager,2,90509,36,0.47,3,67.2,0.6,Medium,66.7,91.7,2,"Upselling & Cross-selling, Strategic Account Planning",Upskill in Upselling & Cross-selling
+319,Briana Hamilton,Female,45,HR,HR Executive,12,150675,40,-1.0,1,20.0,0.98,High,28.6,82.2,5,"Employee Onboarding, HR Policies & Compliance, HRIS Management, Conflict Resolution, Payroll Coordination",Upskill in Employee Onboarding
+320,Carla Smith,Female,46,Marketing,SEO Analyst,10,71300,24,3.37,3,90.1,0.2,Low,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Link Building, Competitor SEO Analysis",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+321,Ashley Ortiz,Male,60,Marketing,SEO Analyst,9,77783,5,8.17,3,100.0,0.25,Low,42.9,85.8,4,"Search Engine Optimization, Keyword Research, Technical SEO Auditing, Link Building",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+322,David Winters,Other,58,IT,Tester,10,109972,24,3.03,4,100.0,0.08,Low,71.4,92.8,2,"Test Automation, API Testing (Postman)",Test Automation with Playwright & Selenium (TestAutomationU)
+323,Derrick Villanueva,Male,37,Marketing,Content Lead,5,148267,34,3.2,4,99.3,0.47,Medium,57.1,89.2,3,"Copywriting & Editing, Social Media Management, Analytics & Reporting",Upskill in Copywriting & Editing
+324,Sarah Ponce,Other,56,IT,Tester,7,131748,37,-2.07,3,32.9,0.69,Medium,85.7,96.4,1,QA Testing,Upskill in QA Testing
+325,Alan Thompson,Male,51,IT,Engineer,12,145326,6,4.8,3,100.0,0.16,Low,71.4,92.8,2,"Systems Architecture, CI/CD Pipelines",Upskill in Systems Architecture
+326,Vanessa Logan,Male,32,Marketing,Content Lead,3,145172,24,2.03,5,96.5,0.11,Low,71.4,92.8,2,"Social Media Management, Analytics & Reporting",Upskill in Social Media Management
+327,Joshua Stevens,Other,25,Sales,Sales Executive,13,140663,27,4.6,3,100.0,0.46,Medium,42.9,85.8,4,"B2B Sales, Pipeline Forecasting, Lead Generation, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+328,James West,Male,25,Finance,Accountant,4,122261,39,-1.63,1,21.4,0.98,High,57.1,89.2,3,"Financial Statements, Accounts Payable / Receivable, Payroll Management",Corporate Financial Statements & Reconciliation (Wharton Online)
+329,Donna Wolfe,Female,31,HR,HR Manager,12,35923,15,2.0,4,80.3,0.07,Low,85.7,96.4,1,Succession Planning,Upskill in Succession Planning
+330,Alexander Murray,Female,47,IT,Developer,14,121204,34,-0.8,4,63.5,0.78,High,42.9,85.8,4,"Python, REST APIs, Docker, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+331,Catherine Raymond,Other,56,Sales,Account Manager,5,48764,7,6.27,3,100.0,0.18,Low,33.3,83.3,4,"Key Account Management, Customer Success, Contract Negotiation, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+332,Lisa White,Female,43,Sales,Sales Executive,5,111995,10,6.83,4,100.0,0.34,Low,42.9,85.8,4,"B2B Sales, Client Negotiation, Pipeline Forecasting, Lead Generation",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+333,Marie Wilcox,Female,23,HR,HR Manager,7,146939,16,4.63,3,100.0,0.28,Low,42.9,85.8,4,"HR Strategy, Executive Leadership, Succession Planning, Employee Engagement",Upskill in HR Strategy
+334,Kevin George,Male,38,Sales,Account Manager,3,131509,26,0.47,5,73.9,0.66,Medium,66.7,91.7,2,"Customer Success, Contract Negotiation",Upskill in Customer Success
+335,Justin Howard,Other,36,Support,Support Engineer,9,49565,38,-1.93,2,20.0,0.98,High,57.1,89.2,3,"Database Querying (SQL), Incident Management, Cloud Monitoring",Upskill in Database Querying (SQL)
+336,Ryan Wood,Female,35,HR,HR Executive,10,85186,33,1.4,3,71.7,0.62,Medium,71.4,92.8,2,"Talent Acquisition, HR Policies & Compliance",Strategic Talent Acquisition & Sourcing (SHRM Online)
+337,Jesse Cline,Female,37,Marketing,SEO Analyst,11,170101,12,3.27,3,94.2,0.23,Low,42.9,85.8,4,"Google Analytics / Search Console, Content Strategy, Link Building, Competitor SEO Analysis",Upskill in Google Analytics / Search Console
+338,William Wright,Female,42,Marketing,SEO Analyst,6,166547,29,0.03,3,53.0,0.72,High,42.9,85.8,4,"Google Analytics / Search Console, Keyword Research, Technical SEO Auditing, Competitor SEO Analysis",Upskill in Google Analytics / Search Console
+339,Jeffery Anderson,Male,46,Marketing,Content Lead,4,136830,0,8.0,3,100.0,0.22,Low,57.1,89.2,3,"Copywriting & Editing, Brand Storytelling, Social Media Management",Upskill in Copywriting & Editing
+340,Denise Martinez,Other,36,Marketing,Content Lead,13,89473,15,3.67,3,92.0,0.25,Low,42.9,85.8,4,"Content Strategy, Content Marketing, Social Media Management, Analytics & Reporting",Upskill in Content Strategy
+341,Benjamin Robinson,Female,28,Finance,Auditor,2,80131,28,1.23,3,74.3,0.63,Medium,71.4,92.8,2,"Financial Auditing, Regulatory Reporting",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+342,Terry Hunt,Female,36,IT,Tester,8,60436,27,-0.23,4,67.0,0.61,Medium,71.4,92.8,2,"Bug Lifecycle Management, Performance Testing (JMeter)",Upskill in Bug Lifecycle Management
+343,Chelsey Smith,Female,42,HR,HR Executive,4,167857,3,5.57,3,100.0,0.26,Low,42.9,85.8,4,"Talent Acquisition, Employee Onboarding, HRIS Management, Conflict Resolution",Strategic Talent Acquisition & Sourcing (SHRM Online)
+344,Jeff Oconnor,Female,33,Finance,Auditor,4,153228,30,1.83,4,82.7,0.68,Medium,71.4,92.8,2,"Tax Compliance, Regulatory Reporting",Corporate Tax Compliance & Reporting (Udemy for Business)
+345,Brendan Henson,Male,47,Finance,Accountant,4,109066,22,5.43,3,100.0,0.28,Low,42.9,85.8,4,"Financial Statements, Tax Preparation, Payroll Management, Reconciliation",Corporate Financial Statements & Reconciliation (Wharton Online)
+346,Christina Sanders,Male,55,HR,HR Manager,9,136921,33,1.23,3,74.7,0.77,High,28.6,82.2,5,"HR Strategy, Succession Planning, Organizational Development, Budgeting, Employee Engagement",Upskill in HR Strategy
+347,Douglas Nelson,Male,32,HR,HR Executive,4,99855,9,5.53,4,100.0,0.22,Low,28.6,82.2,5,"Talent Acquisition, Employee Onboarding, HRIS Management, Conflict Resolution, Performance Management",Strategic Talent Acquisition & Sourcing (SHRM Online)
+348,Mary Turner,Male,36,IT,Developer,15,40969,34,-0.3,2,38.9,0.98,High,71.4,92.8,2,"JavaScript / React, REST APIs",Full-Stack React & Next.js Development (Frontend Masters)
+349,Kevin Brown,Other,21,Sales,Sales Executive,10,88812,7,5.43,5,100.0,0.24,Low,57.1,89.2,3,"Client Negotiation, Lead Generation, Relationship Management",Upskill in Client Negotiation
+350,Jonathan Bishop,Female,33,Marketing,Content Lead,13,96146,10,6.17,3,100.0,0.17,Low,57.1,89.2,3,"Content Strategy, Copywriting & Editing, Analytics & Reporting",Upskill in Content Strategy
+351,Maurice Lee,Male,33,HR,HR Manager,10,76013,11,7.3,3,100.0,0.06,Low,85.7,96.4,1,Employee Engagement,Upskill in Employee Engagement
+352,Austin Jackson,Male,53,Support,Helpdesk,7,86146,31,2.63,2,70.0,0.98,High,57.1,89.2,3,"Customer Troubleshooting, Hardware Diagnostics, Active Directory",Upskill in Customer Troubleshooting
+353,Mary Burgess,Female,36,IT,Tester,5,133790,2,5.27,4,100.0,0.11,Low,71.4,92.8,2,"Test Automation, Bug Lifecycle Management",Test Automation with Playwright & Selenium (TestAutomationU)
+354,Patricia Reed,Female,47,Support,Helpdesk,5,82116,17,4.1,4,100.0,0.24,Low,42.9,85.8,4,"Technical Support, Customer Troubleshooting, Network Basics, SLA Management",Upskill in Technical Support
+355,Nancy Simpson,Female,36,Sales,Account Manager,5,174515,6,7.8,4,100.0,0.08,Low,66.7,91.7,2,"Customer Success, Contract Negotiation",Upskill in Customer Success
+356,Justin Huerta,Female,51,IT,Tester,11,32394,38,0.9,3,71.3,0.8,High,57.1,89.2,3,"QA Testing, Performance Testing (JMeter), CI/CD Quality Gates",Upskill in QA Testing
+357,Henry Davis,Other,28,HR,HR Executive,10,167537,5,6.67,3,100.0,0.15,Low,71.4,92.8,2,"HR Policies & Compliance, Performance Management",Upskill in HR Policies & Compliance
+358,Nancy Allen,Male,55,IT,Engineer,14,172995,23,4.9,3,100.0,0.26,Low,42.9,85.8,4,"Cloud Infrastructure (AWS/GCP), CI/CD Pipelines, Python / Go, Docker & Kubernetes",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+359,Jill Hill,Male,32,HR,HR Executive,12,92794,4,5.53,3,100.0,0.16,Low,71.4,92.8,2,"Employee Onboarding, Payroll Coordination",Upskill in Employee Onboarding
+360,Nicholas Barnes,Other,48,HR,HR Manager,3,137935,35,0.17,3,58.8,0.84,High,42.9,85.8,4,"HR Strategy, Executive Leadership, Labor Law & Compliance, Organizational Development",Upskill in HR Strategy
+361,Emily Richardson,Female,44,Marketing,SEO Analyst,7,115462,19,3.53,4,100.0,0.21,Low,42.9,85.8,4,"Google Analytics / Search Console, Keyword Research, Link Building, Competitor SEO Analysis",Upskill in Google Analytics / Search Console
+362,Chad Potter,Other,27,Support,Helpdesk,8,87597,5,6.67,2,100.0,0.3,Low,71.4,92.8,2,"Technical Support, Hardware Diagnostics",Upskill in Technical Support
+363,Elizabeth Mcdonald,Female,58,Support,Helpdesk,5,55055,26,4.3,4,100.0,0.4,Medium,71.4,92.8,2,"SLA Management, Active Directory",Upskill in SLA Management
+364,Mrs. Lisa Willis,Male,43,IT,Tester,13,137797,9,7.2,2,100.0,0.53,Medium,57.1,89.2,3,"Selenium / Playwright, Test Automation, CI/CD Quality Gates",Upskill in Selenium / Playwright
+365,Kathryn Henry,Female,43,Sales,Sales Executive,12,53127,30,1.0,3,68.9,0.82,High,42.9,85.8,4,"CRM Management, Pipeline Forecasting, Lead Generation, Market Analysis",Modern CRM & Sales Pipeline Mastery (HubSpot Academy)
+366,Joshua Meyer,Male,34,Support,Helpdesk,8,140036,27,1.93,3,73.5,0.66,Medium,71.4,92.8,2,"ServiceNow / ITSM, SLA Management",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+367,Michelle Jackson,Other,40,Finance,Accountant,14,124811,15,6.0,3,100.0,0.23,Low,57.1,89.2,3,"General Ledger, Financial Statements, Payroll Management",Upskill in General Ledger
+368,Jason Camacho,Other,39,IT,Developer,5,155312,25,4.33,2,100.0,0.83,High,57.1,89.2,3,"Python, JavaScript / React, Git Version Control",Production Python & REST API Engineering (Udemy for Business)
+369,Zachary King,Male,49,Sales,Account Manager,3,105484,32,-1.4,3,39.3,0.77,High,33.3,83.3,4,"Key Account Management, Contract Negotiation, Client Retention, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+370,Heather Hill,Female,25,HR,HR Executive,2,104217,10,8.0,5,100.0,0.26,Low,57.1,89.2,3,"Employee Onboarding, Performance Management, Payroll Coordination",Upskill in Employee Onboarding
+371,Hannah Webb,Male,46,Finance,Accountant,4,167454,15,6.17,3,100.0,0.27,Low,57.1,89.2,3,"Financial Statements, Accounts Payable / Receivable, Payroll Management",Corporate Financial Statements & Reconciliation (Wharton Online)
+372,Daniel Floyd,Other,33,IT,Developer,9,68529,40,2.0,2,63.7,0.96,High,42.9,85.8,4,"JavaScript / React, REST APIs, Git Version Control, Microservices Architecture",Full-Stack React & Next.js Development (Frontend Masters)
+373,Kenneth Ford,Female,31,Finance,Auditor,15,53142,28,4.23,3,100.0,0.47,Medium,28.6,82.2,5,"Accounting, Financial Auditing, Risk Assessment, Tax Compliance, Excel & Financial Modeling",Upskill in Accounting
+374,Joshua Green,Male,58,Finance,Accountant,9,40979,18,2.23,3,84.4,0.3,Low,57.1,89.2,3,"Financial Statements, Tax Preparation, Payroll Management",Corporate Financial Statements & Reconciliation (Wharton Online)
+375,Bryan Torres,Female,46,Marketing,SEO Analyst,9,161498,23,4.9,4,100.0,0.24,Low,71.4,92.8,2,"Google Analytics / Search Console, Link Building",Upskill in Google Analytics / Search Console
+376,James Henderson,Female,21,IT,Engineer,14,147713,23,1.4,3,78.3,0.63,Medium,42.9,85.8,4,"Systems Architecture, CI/CD Pipelines, Python / Go, Monitoring & Logging",Upskill in Systems Architecture
+377,Timothy Morris,Other,22,Sales,Sales Executive,2,93080,30,1.5,3,74.4,0.86,High,57.1,89.2,3,"B2B Sales, Client Negotiation, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+378,Dillon Daniel,Male,56,Sales,Sales Executive,14,129210,39,0.87,1,50.3,0.98,High,42.9,85.8,4,"B2B Sales, CRM Management, Pipeline Forecasting, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+379,Shelley Anthony,Other,51,Support,Support Engineer,13,37689,15,6.5,2,100.0,0.3,Low,71.4,92.8,2,"L2/L3 Technical Troubleshooting, Log Analysis",Upskill in L2/L3 Technical Troubleshooting
+380,Edward Jennings,Female,30,Marketing,SEO Analyst,14,173685,20,2.17,3,77.8,0.07,Low,85.7,96.4,1,Technical SEO Auditing,Upskill in Technical SEO Auditing
+381,Dana Steele,Female,46,IT,Tester,11,68482,3,9.4,2,100.0,0.29,Low,71.4,92.8,2,"Test Automation, Performance Testing (JMeter)",Test Automation with Playwright & Selenium (TestAutomationU)
+382,Caitlyn Hayes,Male,37,Support,Support Engineer,7,51630,11,3.13,3,90.8,0.17,Low,71.4,92.8,2,"Log Analysis, Cloud Monitoring",Upskill in Log Analysis
+383,Kathleen Rasmussen,Male,31,IT,Engineer,2,41134,31,3.8,4,100.0,0.46,Medium,42.9,85.8,4,"CI/CD Pipelines, Linux Administration, Python / Go, Docker & Kubernetes",Upskill in CI/CD Pipelines
+384,Kyle Fuller,Male,22,Sales,Sales Executive,4,46137,29,0.03,3,53.6,0.9,High,28.6,82.2,5,"B2B Sales, Client Negotiation, Pipeline Forecasting, Lead Generation, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+385,Jill Bass,Female,54,HR,HR Manager,9,38595,12,7.43,3,100.0,0.3,Low,42.9,85.8,4,"Executive Leadership, Labor Law & Compliance, Succession Planning, Employee Engagement",Upskill in Executive Leadership
+386,Lindsey Mcmillan,Male,52,Sales,Sales Executive,14,175777,26,0.97,3,65.1,0.66,Medium,85.7,96.4,1,Client Negotiation,Upskill in Client Negotiation
+387,Bryan Briggs,Other,32,Sales,Account Manager,7,102650,3,9.07,5,100.0,0.34,Low,50.0,87.5,3,"Upselling & Cross-selling, Client Retention, Strategic Account Planning",Upskill in Upselling & Cross-selling
+388,Ms. Amanda Campbell,Female,51,Marketing,Content Lead,13,107276,13,7.4,5,100.0,0.23,Low,42.9,85.8,4,"Content Strategy, Copywriting & Editing, Brand Storytelling, Analytics & Reporting",Upskill in Content Strategy
+389,Martha Henson,Other,22,Support,Support Engineer,7,131037,19,4.7,4,100.0,0.26,Low,42.9,85.8,4,"Log Analysis, Database Querying (SQL), Scripting (Python/Bash), Customer Communication",Upskill in Log Analysis
+390,Thomas Green,Female,21,Sales,Account Manager,5,131917,20,3.33,2,86.8,0.35,Medium,83.3,95.8,1,Customer Success,Upskill in Customer Success
+391,Melissa Parker,Other,60,Marketing,Content Lead,12,133093,37,1.27,4,76.0,0.83,High,57.1,89.2,3,"Content Strategy, Copywriting & Editing, Brand Storytelling",Upskill in Content Strategy
+392,George Cooley,Female,48,IT,Tester,2,72367,25,5.0,4,100.0,0.31,Low,42.9,85.8,4,"QA Testing, Selenium / Playwright, Test Automation, Performance Testing (JMeter)",Upskill in QA Testing
+393,Anthony Dominguez,Male,25,Support,Helpdesk,10,32438,18,1.57,3,70.2,0.52,Medium,28.6,82.2,5,"Technical Support, ServiceNow / ITSM, Hardware Diagnostics, Network Basics, Active Directory",Upskill in Technical Support
+394,Katherine Webster,Male,49,Finance,Accountant,2,59217,4,5.53,3,100.0,0.15,Low,57.1,89.2,3,"General Ledger, Financial Statements, QuickBooks / SAP",Upskill in General Ledger
+395,Heather Martinez,Other,59,Sales,Account Manager,12,175726,35,0.33,4,68.8,0.69,Medium,66.7,91.7,2,"Key Account Management, Customer Success",Strategic Account Planning & Retention (LinkedIn Learning)
+396,Gregory Adams,Female,41,Marketing,SEO Analyst,12,32496,15,4.5,3,100.0,0.08,Low,71.4,92.8,2,"Google Analytics / Search Console, Keyword Research",Upskill in Google Analytics / Search Console
+397,Pamela Smith,Female,27,IT,Engineer,9,30860,15,2.17,3,78.7,0.04,Low,71.4,92.8,2,"CI/CD Pipelines, Monitoring & Logging",Upskill in CI/CD Pipelines
+398,Steven Lewis,Female,48,Sales,Sales Executive,7,84698,34,2.53,4,98.0,0.55,Medium,57.1,89.2,3,"Client Negotiation, CRM Management, Lead Generation",Upskill in Client Negotiation
+399,Veronica Washington,Male,39,Sales,Sales Executive,3,41440,6,7.63,3,100.0,0.24,Low,42.9,85.8,4,"B2B Sales, Client Negotiation, CRM Management, Pipeline Forecasting",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+400,John Smith,Other,41,Finance,Accountant,6,69711,22,4.93,3,100.0,0.11,Low,71.4,92.8,2,"Tax Preparation, Reconciliation",Upskill in Tax Preparation
+401,John Gonzalez,Other,60,IT,Developer,12,112591,32,-0.4,1,20.0,0.98,High,57.1,89.2,3,"Git Version Control, Docker, Microservices Architecture",Upskill in Git Version Control
+402,Stacey Smith,Male,41,Marketing,SEO Analyst,4,63692,38,-1.1,2,28.4,0.98,High,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Link Building, Competitor SEO Analysis",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+403,Jonathan Armstrong,Female,47,Sales,Account Manager,11,34950,30,1.83,3,72.8,0.64,Medium,66.7,91.7,2,"Customer Success, Client Retention",Upskill in Customer Success
+404,Edwin Greene,Male,55,IT,Developer,12,162717,10,3.0,5,100.0,0.11,Low,71.4,92.8,2,"Python, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+405,Jessica Clark,Male,49,IT,Tester,14,104563,20,2.0,3,82.9,0.13,Low,42.9,85.8,4,"QA Testing, Selenium / Playwright, Test Automation, Performance Testing (JMeter)",Upskill in QA Testing
+406,Jody Johnson DDS,Male,29,Sales,Sales Executive,2,83355,31,1.63,2,63.0,0.98,High,71.4,92.8,2,"Lead Generation, Relationship Management",Upskill in Lead Generation
+407,Amy Moore,Female,43,IT,Tester,11,98962,2,6.1,4,100.0,0.3,Low,42.9,85.8,4,"QA Testing, Selenium / Playwright, Test Automation, Performance Testing (JMeter)",Upskill in QA Testing
+408,Noah Stewart,Male,37,Support,Support Engineer,4,53289,22,3.77,5,100.0,0.27,Low,42.9,85.8,4,"Database Querying (SQL), Incident Management, Cloud Monitoring, Customer Communication",Upskill in Database Querying (SQL)
+409,Gabriel Hess,Male,29,HR,HR Manager,8,67267,38,2.07,3,74.6,0.55,Medium,57.1,89.2,3,"Executive Leadership, Labor Law & Compliance, Organizational Development",Upskill in Executive Leadership
+410,Kimberly Larson,Male,23,Marketing,Content Lead,10,64955,8,7.57,2,100.0,0.31,Low,71.4,92.8,2,"Brand Storytelling, Social Media Management",Upskill in Brand Storytelling
+411,Mrs. Melissa Thompson DDS,Other,47,Marketing,SEO Analyst,2,32693,37,0.6,4,69.8,0.82,High,42.9,85.8,4,"Google Analytics / Search Console, Technical SEO Auditing, Content Strategy, Link Building",Upskill in Google Analytics / Search Console
+412,Dr. Steven Blair,Other,48,Support,Support Engineer,15,168715,9,6.53,2,100.0,0.48,Medium,42.9,85.8,4,"Log Analysis, Database Querying (SQL), Scripting (Python/Bash), Customer Communication",Upskill in Log Analysis
+413,Courtney Miller,Other,60,Finance,Auditor,5,69898,37,-2.23,2,23.9,0.98,High,85.7,96.4,1,Excel & Financial Modeling,Upskill in Excel & Financial Modeling
+414,Karen Mcknight,Female,44,Finance,Auditor,13,76888,22,5.27,4,100.0,0.21,Low,42.9,85.8,4,"Financial Auditing, Risk Assessment, Internal Controls, Excel & Financial Modeling",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+415,Sonya Martin,Female,23,IT,Engineer,5,77513,11,4.13,1,92.6,0.41,Medium,42.9,85.8,4,"Cloud Infrastructure (AWS/GCP), Linux Administration, Python / Go, Docker & Kubernetes",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+416,Dr. Pamela Wilcox,Female,31,Finance,Auditor,4,144517,40,-2.83,4,29.2,0.6,Medium,85.7,96.4,1,Excel & Financial Modeling,Upskill in Excel & Financial Modeling
+417,Heather Hampton,Male,56,Finance,Auditor,9,125280,19,6.03,3,100.0,0.17,Low,71.4,92.8,2,"Tax Compliance, Regulatory Reporting",Corporate Tax Compliance & Reporting (Udemy for Business)
+418,James Taylor Jr.,Other,42,Sales,Account Manager,2,127848,26,0.63,3,58.0,0.64,Medium,83.3,95.8,1,Client Retention,Upskill in Client Retention
+419,Tamara Figueroa,Female,42,Marketing,Content Lead,3,41729,7,7.43,3,100.0,0.3,Low,28.6,82.2,5,"Copywriting & Editing, SEO & Keyword Strategy, Brand Storytelling, Content Marketing, Social Media Management",Upskill in Copywriting & Editing
+420,Aaron Martin,Female,60,Sales,Account Manager,5,115766,31,1.97,4,93.8,0.89,High,33.3,83.3,4,"Key Account Management, Upselling & Cross-selling, Client Retention, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+421,Carlos Washington,Male,45,Finance,Auditor,8,123401,22,2.77,4,98.6,0.21,Low,42.9,85.8,4,"Accounting, Risk Assessment, Tax Compliance, Regulatory Reporting",Upskill in Accounting
+422,Brittany Callahan,Female,60,Marketing,Content Lead,6,155850,0,7.83,3,100.0,0.25,Low,42.9,85.8,4,"Copywriting & Editing, SEO & Keyword Strategy, Social Media Management, Analytics & Reporting",Upskill in Copywriting & Editing
+423,Andrew Gonzalez,Female,33,Sales,Account Manager,4,127997,39,1.7,4,91.1,0.75,High,33.3,83.3,4,"Customer Success, Upselling & Cross-selling, Client Retention, Strategic Account Planning",Upskill in Customer Success
+424,Mr. Ricky Nichols,Male,27,Marketing,Content Lead,9,156714,2,5.77,4,100.0,0.35,Medium,42.9,85.8,4,"Content Strategy, Content Marketing, Social Media Management, Analytics & Reporting",Upskill in Content Strategy
+425,Sarah Ward,Other,58,Marketing,SEO Analyst,15,149436,17,4.1,3,100.0,0.32,Low,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Keyword Research, Technical SEO Auditing",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+426,Cristina Martin,Male,30,Sales,Account Manager,3,36058,26,3.8,3,100.0,0.39,Medium,83.3,95.8,1,Contract Negotiation,Upskill in Contract Negotiation
+427,Alexandra Dalton,Other,46,Finance,Accountant,3,159792,8,8.4,3,100.0,0.12,Low,85.7,96.4,1,General Ledger,Upskill in General Ledger
+428,Melissa Arias,Female,47,Sales,Account Manager,5,74415,25,0.5,3,71.3,0.45,Medium,66.7,91.7,2,"Key Account Management, Client Retention",Strategic Account Planning & Retention (LinkedIn Learning)
+429,Richard Smith,Other,33,Finance,Auditor,8,43491,2,7.93,4,100.0,0.08,Low,71.4,92.8,2,"Financial Auditing, Internal Controls",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+430,Lori Smith,Male,29,Sales,Sales Executive,15,46600,29,3.03,5,100.0,0.51,Medium,42.9,85.8,4,"B2B Sales, Pipeline Forecasting, Lead Generation, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+431,Alex Taylor,Female,40,IT,Developer,10,57166,4,8.53,3,100.0,0.33,Low,57.1,89.2,3,"JavaScript / React, REST APIs, SQL & Database Design",Full-Stack React & Next.js Development (Frontend Masters)
+432,Rachael Johnson,Male,40,Support,Support Engineer,3,159746,2,9.43,4,100.0,0.16,Low,57.1,89.2,3,"L2/L3 Technical Troubleshooting, Log Analysis, Cloud Monitoring",Upskill in L2/L3 Technical Troubleshooting
+433,David Bryant,Female,53,Sales,Sales Executive,4,175837,27,1.6,2,64.5,0.98,High,57.1,89.2,3,"B2B Sales, Client Negotiation, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+434,James Flores,Female,52,Support,Support Engineer,8,80388,19,2.37,1,54.7,0.3,Low,85.7,96.4,1,Incident Management,Upskill in Incident Management
+435,David Haynes,Other,52,Support,Support Engineer,9,171878,17,1.77,4,86.2,0.39,Medium,71.4,92.8,2,"L2/L3 Technical Troubleshooting, Customer Communication",Upskill in L2/L3 Technical Troubleshooting
+436,Marco Chambers,Male,59,Marketing,SEO Analyst,4,85221,17,4.1,4,100.0,0.17,Low,42.9,85.8,4,"Technical SEO Auditing, Content Strategy, Link Building, Competitor SEO Analysis",Upskill in Technical SEO Auditing
+437,Todd Marsh,Other,48,HR,HR Executive,5,59266,16,5.8,3,100.0,0.14,Low,71.4,92.8,2,"Talent Acquisition, Employee Onboarding",Strategic Talent Acquisition & Sourcing (SHRM Online)
+438,Sydney Robinson,Other,37,Marketing,SEO Analyst,2,169877,7,8.6,3,100.0,0.23,Low,71.4,92.8,2,"Google Analytics / Search Console, Competitor SEO Analysis",Upskill in Google Analytics / Search Console
+439,Kelly Watkins,Female,55,Marketing,SEO Analyst,9,78917,28,1.07,3,61.5,0.82,High,28.6,82.2,5,"Search Engine Optimization, Google Analytics / Search Console, Keyword Research, Content Strategy, Link Building",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+440,Dr. Kathryn Meyer MD,Male,54,Sales,Sales Executive,3,135185,36,2.47,3,82.4,0.51,Medium,42.9,85.8,4,"B2B Sales, Pipeline Forecasting, Market Analysis, Relationship Management",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+441,Amy Guerrero,Female,25,Sales,Sales Executive,14,110287,12,3.27,3,100.0,0.08,Low,85.7,96.4,1,Pipeline Forecasting,Upskill in Pipeline Forecasting
+442,Lindsey Holmes,Other,27,Support,Helpdesk,11,50125,27,4.43,4,100.0,0.54,Medium,57.1,89.2,3,"Hardware Diagnostics, SLA Management, Active Directory",Upskill in Hardware Diagnostics
+443,Donald Cummings,Female,25,HR,HR Manager,9,110690,7,5.77,5,100.0,0.22,Low,42.9,85.8,4,"HR Strategy, Executive Leadership, Labor Law & Compliance, Employee Engagement",Upskill in HR Strategy
+444,Brittney Booth,Other,49,IT,Tester,4,47150,5,6.0,3,100.0,0.36,Medium,57.1,89.2,3,"Selenium / Playwright, Test Automation, Performance Testing (JMeter)",Upskill in Selenium / Playwright
+445,Ashley Hoffman,Female,34,Sales,Account Manager,12,121514,22,5.27,4,100.0,0.27,Low,50.0,87.5,3,"Customer Success, Contract Negotiation, Strategic Account Planning",Upskill in Customer Success
+446,Oscar Reid,Female,30,Support,Helpdesk,14,179581,24,3.03,4,100.0,0.07,Low,71.4,92.8,2,"Customer Troubleshooting, Active Directory",Upskill in Customer Troubleshooting
+447,Sarah Smith,Female,29,Sales,Sales Executive,9,161650,31,-0.7,3,58.6,0.83,High,42.9,85.8,4,"Client Negotiation, Pipeline Forecasting, Market Analysis, Relationship Management",Upskill in Client Negotiation
+448,William Chavez,Male,58,IT,Tester,5,94497,33,-1.43,4,42.9,0.6,Medium,71.4,92.8,2,"Selenium / Playwright, Performance Testing (JMeter)",Upskill in Selenium / Playwright
+449,Angela Rodriguez,Female,57,Finance,Accountant,3,42163,5,8.83,3,100.0,0.21,Low,57.1,89.2,3,"General Ledger, Financial Statements, Accounts Payable / Receivable",Upskill in General Ledger
+450,John White,Male,60,IT,Developer,5,46869,23,2.9,2,76.1,0.85,High,42.9,85.8,4,"Python, SQL & Database Design, Git Version Control, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+451,Juan Hardy,Female,45,Support,Helpdesk,9,77555,40,-0.17,4,60.7,0.75,High,42.9,85.8,4,"Technical Support, ServiceNow / ITSM, Network Basics, SLA Management",Upskill in Technical Support
+452,Elizabeth Foley,Male,34,Support,Support Engineer,2,33685,33,0.57,3,58.4,0.72,High,57.1,89.2,3,"L2/L3 Technical Troubleshooting, Log Analysis, Cloud Monitoring",Upskill in L2/L3 Technical Troubleshooting
+453,Raven Williams,Male,53,IT,Engineer,3,152409,3,5.23,4,100.0,0.27,Low,57.1,89.2,3,"Systems Architecture, Linux Administration, Monitoring & Logging",Upskill in Systems Architecture
+454,Miss Shannon Turner,Other,43,IT,Engineer,4,110233,4,6.03,4,100.0,0.24,Low,42.9,85.8,4,"Cloud Infrastructure (AWS/GCP), Linux Administration, Python / Go, Docker & Kubernetes",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+455,Grace Cruz,Female,43,IT,Developer,4,111332,13,6.07,3,100.0,0.16,Low,57.1,89.2,3,"SQL & Database Design, Git Version Control, Microservices Architecture",Data Literacy & SQL Analytics for Managers (DataCamp)
+456,Robert Morrow,Male,46,Marketing,Content Lead,3,141468,24,0.87,3,68.3,0.45,Medium,85.7,96.4,1,Content Marketing,Upskill in Content Marketing
+457,Aaron Davis,Male,48,Support,Helpdesk,7,88349,32,1.1,3,68.4,0.75,High,57.1,89.2,3,"Technical Support, Hardware Diagnostics, SLA Management",Upskill in Technical Support
+458,Trevor Williams,Female,47,HR,HR Executive,11,119643,1,6.63,4,100.0,0.1,Low,85.7,96.4,1,Employee Onboarding,Upskill in Employee Onboarding
+459,Albert Chavez,Other,32,Sales,Account Manager,3,161632,1,5.97,1,100.0,0.38,Medium,50.0,87.5,3,"Customer Success, Upselling & Cross-selling, Contract Negotiation",Upskill in Customer Success
+460,Nichole Fitzgerald,Male,34,Marketing,SEO Analyst,2,53266,13,2.73,4,94.1,0.26,Low,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Keyword Research, Content Strategy",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+461,Chelsey Roberts,Other,60,Finance,Accountant,15,67827,23,0.57,2,50.7,0.98,High,42.9,85.8,4,"General Ledger, Financial Statements, Accounts Payable / Receivable, QuickBooks / SAP",Upskill in General Ledger
+462,Brian Rice,Female,27,Support,Support Engineer,4,116235,17,4.93,3,100.0,0.32,Low,57.1,89.2,3,"Log Analysis, Incident Management, Cloud Monitoring",Upskill in Log Analysis
+463,Jo Warren,Female,58,Finance,Accountant,13,35093,5,6.17,4,100.0,0.09,Low,71.4,92.8,2,"General Ledger, Payroll Management",Upskill in General Ledger
+464,Cynthia Clark,Female,60,Sales,Account Manager,14,155870,6,5.63,3,100.0,0.1,Low,66.7,91.7,2,"Contract Negotiation, Strategic Account Planning",Upskill in Contract Negotiation
+465,Mary Hudson,Other,32,Support,Helpdesk,2,140627,34,0.2,4,64.9,0.78,High,42.9,85.8,4,"Customer Troubleshooting, Network Basics, SLA Management, Active Directory",Upskill in Customer Troubleshooting
+466,Jacqueline Knight,Female,28,IT,Developer,2,93057,15,6.5,4,100.0,0.06,Low,71.4,92.8,2,"Python, JavaScript / React",Production Python & REST API Engineering (Udemy for Business)
+467,Sydney Sweeney,Female,25,Finance,Auditor,11,107898,8,6.07,3,100.0,0.08,Low,71.4,92.8,2,"Accounting, Internal Controls",Upskill in Accounting
+468,Deborah Harris,Male,59,HR,HR Executive,9,169457,34,0.2,2,41.5,0.98,High,57.1,89.2,3,"Talent Acquisition, Conflict Resolution, Performance Management",Strategic Talent Acquisition & Sourcing (SHRM Online)
+469,Samantha Curtis,Female,40,Finance,Auditor,5,173633,38,1.9,3,77.9,0.86,High,57.1,89.2,3,"Accounting, Risk Assessment, Internal Controls",Upskill in Accounting
+470,Brett Armstrong,Male,60,HR,HR Executive,14,92312,39,-0.63,1,34.7,0.98,High,42.9,85.8,4,"HR Policies & Compliance, HRIS Management, Performance Management, Payroll Coordination",Upskill in HR Policies & Compliance
+471,David Zamora,Female,22,HR,HR Manager,8,35152,11,7.8,3,100.0,0.28,Low,28.6,82.2,5,"HR Strategy, Executive Leadership, Labor Law & Compliance, Succession Planning, Organizational Development",Upskill in HR Strategy
+472,Gregory Contreras,Male,37,Finance,Accountant,5,162437,37,0.6,2,43.5,0.98,High,57.1,89.2,3,"General Ledger, Financial Statements, Payroll Management",Upskill in General Ledger
+473,Brian Peterson,Other,44,IT,Engineer,13,129971,38,-0.43,4,50.1,0.6,Medium,71.4,92.8,2,"Cloud Infrastructure (AWS/GCP), Docker & Kubernetes",Cloud Infrastructure on AWS & Kubernetes (AWS Training)
+474,Frank Ross,Male,54,Finance,Auditor,9,175948,40,-0.83,2,42.7,0.98,High,57.1,89.2,3,"Financial Auditing, Internal Controls, Regulatory Reporting",Advanced Financial Auditing & Risk Management (Coursera Enterprise)
+475,Kelsey Moore,Male,35,Sales,Account Manager,4,162702,12,5.27,3,100.0,0.19,Low,50.0,87.5,3,"Key Account Management, Upselling & Cross-selling, Contract Negotiation",Strategic Account Planning & Retention (LinkedIn Learning)
+476,Louis Davis,Male,24,HR,HR Manager,5,76735,12,3.43,4,100.0,0.13,Low,85.7,96.4,1,Succession Planning,Upskill in Succession Planning
+477,Daniel Ruiz,Other,49,Sales,Sales Executive,14,64651,17,5.93,4,100.0,0.13,Low,71.4,92.8,2,"Pipeline Forecasting, Lead Generation",Upskill in Pipeline Forecasting
+478,Lauren Preston,Other,55,Marketing,Content Lead,15,94382,2,9.1,4,100.0,0.27,Low,57.1,89.2,3,"Copywriting & Editing, Brand Storytelling, Analytics & Reporting",Upskill in Copywriting & Editing
+479,Shawn Grant,Other,56,IT,Tester,5,140237,21,5.63,3,100.0,0.21,Low,57.1,89.2,3,"API Testing (Postman), Performance Testing (JMeter), CI/CD Quality Gates",Upskill in API Testing (Postman)
+480,Pamela Castro,Other,51,Support,Helpdesk,14,77476,9,7.2,4,100.0,0.28,Low,57.1,89.2,3,"ServiceNow / ITSM, Hardware Diagnostics, SLA Management",ITSM & ServiceNow Service Desk Leadership (ServiceNow Learn)
+481,Brian Thompson,Female,21,IT,Developer,2,36213,5,4.83,3,100.0,0.23,Low,42.9,85.8,4,"Python, JavaScript / React, REST APIs, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+482,Anthony Jennings,Other,43,Support,Support Engineer,8,60868,33,2.4,3,91.3,0.48,Medium,42.9,85.8,4,"Log Analysis, Database Querying (SQL), Scripting (Python/Bash), Customer Communication",Upskill in Log Analysis
+483,Jennifer Fernandez,Other,52,IT,Tester,6,42425,39,-0.97,2,40.8,0.98,High,85.7,96.4,1,Selenium / Playwright,Upskill in Selenium / Playwright
+484,Mary Patterson,Other,31,Sales,Sales Executive,4,171672,7,6.27,3,100.0,0.25,Low,57.1,89.2,3,"B2B Sales, CRM Management, Lead Generation",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+485,Antonio Johnson,Female,47,Sales,Sales Executive,7,64927,37,0.1,5,84.8,0.63,Medium,71.4,92.8,2,"Lead Generation, Market Analysis",Upskill in Lead Generation
+486,Thomas Gomez,Female,59,Sales,Sales Executive,7,51461,19,2.87,3,98.9,0.21,Low,42.9,85.8,4,"B2B Sales, Client Negotiation, Lead Generation, Market Analysis",High-Impact Enterprise B2B Sales & Negotiation (Harvard Online)
+487,Stephanie Ryan,Male,33,IT,Developer,11,31689,5,7.17,4,100.0,0.11,Low,71.4,92.8,2,"Python, Microservices Architecture",Production Python & REST API Engineering (Udemy for Business)
+488,Lydia Thomas,Other,39,Finance,Auditor,15,151142,29,1.87,4,96.6,0.79,High,57.1,89.2,3,"Accounting, Risk Assessment, Regulatory Reporting",Upskill in Accounting
+489,Jonathan Green,Male,47,Finance,Accountant,15,44069,22,4.43,3,100.0,0.28,Low,57.1,89.2,3,"Financial Statements, QuickBooks / SAP, Payroll Management",Corporate Financial Statements & Reconciliation (Wharton Online)
+490,Cheryl Jimenez,Other,57,HR,HR Manager,7,178046,30,3.67,4,100.0,0.56,Medium,57.1,89.2,3,"Labor Law & Compliance, Budgeting, Employee Engagement",Enterprise Labor Law & HR Compliance (Cornell Certificate)
+491,Kendra Grant,Female,51,Sales,Account Manager,4,109973,1,6.8,3,100.0,0.4,Medium,50.0,87.5,3,"Key Account Management, Upselling & Cross-selling, Client Retention",Strategic Account Planning & Retention (LinkedIn Learning)
+492,Crystal Conway,Male,34,Marketing,SEO Analyst,3,56917,16,5.97,3,100.0,0.13,Low,42.9,85.8,4,"Search Engine Optimization, Google Analytics / Search Console, Keyword Research, Technical SEO Auditing",SEO Growth Masterclass: Technical & Keyword Auditing (Semrush Academy)
+493,Nancy Bell,Other,59,IT,Tester,10,89449,14,7.2,5,100.0,0.31,Low,57.1,89.2,3,"Test Automation, Bug Lifecycle Management, CI/CD Quality Gates",Test Automation with Playwright & Selenium (TestAutomationU)
+494,Katrina Thomas,Female,53,HR,HR Manager,6,152708,23,1.57,3,84.1,0.62,Medium,57.1,89.2,3,"Executive Leadership, Organizational Development, Budgeting",Upskill in Executive Leadership
+495,Sean Nash,Male,38,IT,Developer,4,56333,20,4.33,4,100.0,0.04,Low,71.4,92.8,2,"Python, REST APIs",Production Python & REST API Engineering (Udemy for Business)
+496,Mrs. Jessica Johnson,Other,25,IT,Developer,12,127673,2,6.93,3,100.0,0.2,Low,57.1,89.2,3,"Python, SQL & Database Design, Git Version Control",Production Python & REST API Engineering (Udemy for Business)
+497,Rhonda Torres,Other,47,Finance,Auditor,6,107623,6,7.3,3,100.0,0.21,Low,57.1,89.2,3,"Accounting, Risk Assessment, Tax Compliance",Upskill in Accounting
+498,Patricia Fisher,Male,44,Finance,Accountant,4,90850,23,3.07,2,76.8,0.8,High,42.9,85.8,4,"General Ledger, Financial Statements, Tax Preparation, Reconciliation",Upskill in General Ledger
+499,Dorothy Hartman,Other,52,Sales,Account Manager,7,138568,25,4.5,3,100.0,0.23,Low,50.0,87.5,3,"Key Account Management, Upselling & Cross-selling, Strategic Account Planning",Strategic Account Planning & Retention (LinkedIn Learning)
+500,David Rhodes,Male,40,Marketing,Content Lead,8,77261,7,4.1,4,100.0,0.09,Low,71.4,92.8,2,"Content Strategy, Content Marketing",Upskill in Content Strategy

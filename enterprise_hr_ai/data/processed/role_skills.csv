@@ -1,0 +1,91 @@
+JobRole,SkillName,Importance,RequiredProficiency,Category
+Auditor,Accounting,High,4,Soft Skill
+Auditor,Financial Auditing,High,4,Technical
+Auditor,Risk Assessment,High,4,Soft Skill
+Auditor,Tax Compliance,Medium,3,Soft Skill
+Auditor,Internal Controls,Medium,3,Soft Skill
+Auditor,Excel & Financial Modeling,Medium,3,Technical
+Auditor,Regulatory Reporting,Medium,3,Soft Skill
+Sales Executive,B2B Sales,High,4,Soft Skill
+Sales Executive,Client Negotiation,High,4,Soft Skill
+Sales Executive,CRM Management,High,4,Soft Skill
+Sales Executive,Pipeline Forecasting,Medium,3,Soft Skill
+Sales Executive,Lead Generation,Medium,3,Soft Skill
+Sales Executive,Market Analysis,Medium,3,Soft Skill
+Sales Executive,Relationship Management,Medium,3,Soft Skill
+Helpdesk,Technical Support,High,4,Soft Skill
+Helpdesk,Customer Troubleshooting,High,4,Soft Skill
+Helpdesk,ServiceNow / ITSM,High,4,Technical
+Helpdesk,Hardware Diagnostics,Medium,3,Soft Skill
+Helpdesk,Network Basics,Medium,3,Soft Skill
+Helpdesk,SLA Management,Medium,3,Soft Skill
+Helpdesk,Active Directory,Medium,3,Soft Skill
+HR Executive,Talent Acquisition,High,4,Soft Skill
+HR Executive,Employee Onboarding,High,4,Soft Skill
+HR Executive,HR Policies & Compliance,High,4,Soft Skill
+HR Executive,HRIS Management,Medium,3,Soft Skill
+HR Executive,Conflict Resolution,Medium,3,Soft Skill
+HR Executive,Performance Management,Medium,3,Soft Skill
+HR Executive,Payroll Coordination,Medium,3,Soft Skill
+Account Manager,Key Account Management,High,4,Soft Skill
+Account Manager,Customer Success,High,4,Soft Skill
+Account Manager,Upselling & Cross-selling,High,4,Soft Skill
+Account Manager,Contract Negotiation,Medium,3,Soft Skill
+Account Manager,Client Retention,Medium,3,Soft Skill
+Account Manager,Strategic Account Planning,Medium,3,Soft Skill
+Engineer,Systems Architecture,High,4,Soft Skill
+Engineer,Cloud Infrastructure (AWS/GCP),High,4,Technical
+Engineer,CI/CD Pipelines,High,4,Soft Skill
+Engineer,Linux Administration,Medium,3,Technical
+Engineer,Python / Go,Medium,3,Technical
+Engineer,Docker & Kubernetes,Medium,3,Technical
+Engineer,Monitoring & Logging,Medium,3,Soft Skill
+Accountant,General Ledger,High,4,Soft Skill
+Accountant,Financial Statements,High,4,Technical
+Accountant,Accounts Payable / Receivable,High,4,Soft Skill
+Accountant,Tax Preparation,Medium,3,Soft Skill
+Accountant,QuickBooks / SAP,Medium,3,Soft Skill
+Accountant,Payroll Management,Medium,3,Soft Skill
+Accountant,Reconciliation,Medium,3,Soft Skill
+HR Manager,HR Strategy,High,4,Soft Skill
+HR Manager,Executive Leadership,High,4,Soft Skill
+HR Manager,Labor Law & Compliance,High,4,Soft Skill
+HR Manager,Succession Planning,Medium,3,Soft Skill
+HR Manager,Organizational Development,Medium,3,Soft Skill
+HR Manager,Budgeting,Medium,3,Soft Skill
+HR Manager,Employee Engagement,Medium,3,Soft Skill
+Developer,Python,High,4,Technical
+Developer,JavaScript / React,High,4,Soft Skill
+Developer,REST APIs,High,4,Technical
+Developer,SQL & Database Design,Medium,3,Technical
+Developer,Git Version Control,Medium,3,Soft Skill
+Developer,Docker,Medium,3,Technical
+Developer,Microservices Architecture,Medium,3,Soft Skill
+SEO Analyst,Search Engine Optimization,High,4,Soft Skill
+SEO Analyst,Google Analytics / Search Console,High,4,Soft Skill
+SEO Analyst,Keyword Research,High,4,Soft Skill
+SEO Analyst,Technical SEO Auditing,Medium,3,Technical
+SEO Analyst,Content Strategy,Medium,3,Soft Skill
+SEO Analyst,Link Building,Medium,3,Soft Skill
+SEO Analyst,Competitor SEO Analysis,Medium,3,Technical
+Support Engineer,L2/L3 Technical Troubleshooting,High,4,Soft Skill
+Support Engineer,Log Analysis,High,4,Soft Skill
+Support Engineer,Database Querying (SQL),High,4,Technical
+Support Engineer,Incident Management,Medium,3,Soft Skill
+Support Engineer,Cloud Monitoring,Medium,3,Technical
+Support Engineer,Scripting (Python/Bash),Medium,3,Technical
+Support Engineer,Customer Communication,Medium,3,Soft Skill
+Tester,QA Testing,High,4,Technical
+Tester,Selenium / Playwright,High,4,Soft Skill
+Tester,Test Automation,High,4,Soft Skill
+Tester,API Testing (Postman),Medium,3,Technical
+Tester,Bug Lifecycle Management,Medium,3,Soft Skill
+Tester,Performance Testing (JMeter),Medium,3,Soft Skill
+Tester,CI/CD Quality Gates,Medium,3,Soft Skill
+Content Lead,Content Strategy,High,4,Soft Skill
+Content Lead,Copywriting & Editing,High,4,Soft Skill
+Content Lead,SEO & Keyword Strategy,High,4,Technical
+Content Lead,Brand Storytelling,Medium,3,Soft Skill
+Content Lead,Content Marketing,Medium,3,Soft Skill
+Content Lead,Social Media Management,Medium,3,Soft Skill
+Content Lead,Analytics & Reporting,Medium,3,Soft Skill
