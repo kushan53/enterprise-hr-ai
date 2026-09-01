@@ -1,6 +1,14 @@
-# ⚡ Enterprise HR AI — Workforce Intelligence & Upskilling Platform
+# ⚡ NexusHR AI — Enterprise Workforce Intelligence & Upskilling Platform
 
-An enterprise-grade, agentic HR platform combining **predictive machine learning**, **skills intelligence**, **automated upskilling recommendations**, and **policy RAG workflows**.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg?logo=python&logoColor=white)](https://python.org)
+[![Tests Passing](https://img.shields.io/badge/Tests-11%2F11%20Passed-10B981.svg)](https://github.com/kushan53/enterprise-hr-ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+> 🚀 **Live Interactive Web Application:** [https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app](https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app/)
+
+An enterprise-grade, agentic HR platform combining **predictive machine learning**, **skills intelligence**, **automated upskilling recommendations**, and **grounded policy RAG workflows**.
 
 ---
 
