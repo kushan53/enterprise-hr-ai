@@ -63,35 +63,58 @@ enterprise_hr_ai/
 
 ---
 
-## 🚀 Quickstart & How to Run
+## 🚀 Quickstart & How to Run Locally
 
-### 1. Install Dependencies
+### 1. Clone the Repository
+```bash
+git clone https://github.com/kushan53/enterprise-hr-ai.git
+cd enterprise-hr-ai
+```
+
+### 2. Set Up Virtual Environment (Optional but Recommended)
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows (PowerShell / CMD):
+.\venv\Scripts\activate
+# On macOS / Linux:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run Data Processing & Model Training
+### 4. Start the FastAPI Backend
 ```bash
-python scripts/process_data.py
-python scripts/train_models.py
-```
-
-### 3. Start the FastAPI Backend
-```bash
+cd enterprise_hr_ai
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
-* Interactive API Documentation (Swagger): `http://localhost:8000/docs`
-* Health Check: `http://localhost:8000/health`
+* 📄 **Interactive Swagger API Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
+* 💓 **Health Check Endpoint:** [http://localhost:8000/health](http://localhost:8000/health)
 
-### 4. Launch the Streamlit Dashboard
+### 5. Launch the Streamlit Web Portal (In a New Terminal)
 ```bash
+cd enterprise_hr_ai
 streamlit run frontend/streamlit_app.py
 ```
-* Access Dashboard at `http://localhost:8501`
+* 🌐 **Access Web Portal at:** [http://localhost:8501](http://localhost:8501)
 
-### 5. Run Automated Test Suite
+### 6. Run Automated Test Suite
 ```bash
 pytest tests/ -v
+```
+
+---
+
+## 🐳 Run with Docker (1-Command Launch)
+
+If you have Docker installed, you can launch the entire stack (FastAPI + Streamlit) with a single command:
+```bash
+docker-compose up --build
 ```
 
 ---
