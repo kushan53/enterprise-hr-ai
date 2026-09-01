@@ -1,0 +1,74 @@
+{
+    "model_name": "Enterprise Attrition Predictor (Tuned Ensemble)",
+    "version": "v2.0",
+    "algorithm": "RandomForestClassifier",
+    "training_date": "2026-08-31 18:33:29",
+    "num_features": 16,
+    "feature_names": [
+        "Age",
+        "Department",
+        "JobRole",
+        "EducationLevel",
+        "MonthlySalary",
+        "OvertimeHoursPerMonth",
+        "LeavesTaken",
+        "ProjectsHandled",
+        "TrainingHours",
+        "YearsAtCompany",
+        "WorkLifeBalanceScore",
+        "PerformanceRating",
+        "YearsSincePromotion",
+        "SalaryPerYearAtCompany",
+        "OvertimeRatio",
+        "BurnoutRiskIndex"
+    ],
+    "top_contributing_features": [
+        {
+            "feature": "PerformanceRating",
+            "importance": 0.3887670226069328
+        },
+        {
+            "feature": "OvertimeHoursPerMonth",
+            "importance": 0.1292915797448201
+        },
+        {
+            "feature": "OvertimeRatio",
+            "importance": 0.12089528091520671
+        },
+        {
+            "feature": "BurnoutRiskIndex",
+            "importance": 0.09584341513835266
+        },
+        {
+            "feature": "WorkLifeBalanceScore",
+            "importance": 0.07831228153453854
+        },
+        {
+            "feature": "MonthlySalary",
+            "importance": 0.023786590774371903
+        },
+        {
+            "feature": "SalaryPerYearAtCompany",
+            "importance": 0.01997593816085603
+        },
+        {
+            "feature": "LeavesTaken",
+            "importance": 0.0173466992896799
+        },
+        {
+            "feature": "Age",
+            "importance": 0.016715525770273316
+        },
+        {
+            "feature": "TrainingHours",
+            "importance": 0.014605686720479108
+        }
+    ],
+    "metrics": {
+        "roc_auc": 1.0,
+        "f1_score": 0.9524,
+        "recall": 0.9091,
+        "precision": 1.0,
+        "accuracy": 0.99
+    }
+}
