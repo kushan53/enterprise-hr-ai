@@ -8,7 +8,9 @@ import os
 import sys
 
 # Ensure root is in path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
 
 from app.services.attrition_service import attrition_service
 from app.services.engagement_service import engagement_service
@@ -293,9 +295,9 @@ st.markdown("""
 # -------------------------------------------------------------
 @st.cache_data
 def load_data():
-    intel_path = "data/processed/employee_intelligence.csv"
-    org_gaps_path = "data/processed/organization_skill_gaps.csv"
-    courses_path = "data/processed/courses.csv"
+    intel_path = os.path.join(BASE_DIR, "data", "processed", "employee_intelligence.csv")
+    org_gaps_path = os.path.join(BASE_DIR, "data", "processed", "organization_skill_gaps.csv")
+    courses_path = os.path.join(BASE_DIR, "data", "processed", "courses.csv")
     
     df_intel = pd.read_csv(intel_path) if os.path.exists(intel_path) else pd.DataFrame()
     df_gaps = pd.read_csv(org_gaps_path) if os.path.exists(org_gaps_path) else pd.DataFrame()
