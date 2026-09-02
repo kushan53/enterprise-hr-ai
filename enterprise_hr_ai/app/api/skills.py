@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 from fastapi import APIRouter, HTTPException, Query
 from app.validation.engagement_schema import SkillGapRequest, SkillGapResponse
 from app.services.skill_gap_service import skill_gap_service

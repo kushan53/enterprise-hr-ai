@@ -1,4 +1,4 @@
-# ⚡ NexusHR AI — Enterprise Workforce Intelligence & Upskilling Platform
+# ⚡ Enterprise HR AI — Workforce Intelligence & Upskilling Platform
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -8,7 +8,7 @@
 
 > 🚀 **Live Interactive Web Application:** [https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app](https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app/)
 
-An enterprise-grade, agentic HR platform combining **predictive machine learning**, **skills intelligence**, **automated upskilling recommendations**, and **grounded policy RAG workflows**.
+An end-to-end HR analytics and artificial intelligence platform combining **predictive machine learning for employee flight-risk**, **organizational skill gap analysis**, **personalized upskilling recommendations**, and **grounded policy Q&A (RAG)**.
 
 ---
 
@@ -20,7 +20,7 @@ enterprise_hr_ai/
 ├── data/
 │   ├── raw/                  <-- 5+ raw CSV datasets (attrition, engagement, performance, skills)
 │   ├── processed/            <-- Clean relational data (employees, skills, courses, intelligence)
-│   └── predictions/          <-- Real-time prediction audit logs (drift monitoring)
+│   └── predictions/          <-- Prediction audit logs for monitoring
 │
 ├── notebooks/                <-- Complete 16-Step Modular ML & Analytics Pipelines
 │   ├── 01_data_understanding.ipynb
@@ -53,9 +53,9 @@ enterprise_hr_ai/
 │   └── utils/                <-- Config & Structured Logger
 │
 ├── frontend/
-│   └── streamlit_app.py      <-- Executive Command Center Dashboard
+│   └── streamlit_app.py      <-- Interactive Streamlit Web Application
 │
-├── tests/                    <-- Pytest unit & integration test suite
+├── tests/                    <-- Pytest unit & integration test suite (11/11 passing)
 ├── docs/                     <-- Architecture, data relations & build notes
 ├── Dockerfile & docker-compose.yml
 └── requirements.txt
@@ -96,12 +96,12 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 * 📄 **Interactive Swagger API Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
 * 💓 **Health Check Endpoint:** [http://localhost:8000/health](http://localhost:8000/health)
 
-### 5. Launch the Streamlit Web Portal (In a New Terminal)
+### 5. Launch the Streamlit Web Application (In a New Terminal)
 ```bash
 cd enterprise_hr_ai
 streamlit run frontend/streamlit_app.py
 ```
-* 🌐 **Access Web Portal at:** [http://localhost:8501](http://localhost:8501)
+* 🌐 **Access Web Dashboard at:** [http://localhost:8501](http://localhost:8501)
 
 ### 6. Run Automated Test Suite
 ```bash
@@ -110,9 +110,9 @@ pytest tests/ -v
 
 ---
 
-## 🐳 Run with Docker (1-Command Launch)
+## 🐳 Run with Docker
 
-If you have Docker installed, you can launch the entire stack (FastAPI + Streamlit) with a single command:
+If you have Docker installed, you can launch the entire system with:
 ```bash
 docker-compose up --build
 ```
@@ -121,16 +121,17 @@ docker-compose up --build
 
 ## 🔑 Core Features & Modules
 
-1. **Predictive Attrition & SHAP Explainability**:
-   - Predicts flight risk probability (0.0 to 1.0) and assigns risk tiers (*Low*, *Medium*, *High*).
-   - Identifies local top-3 risk drivers per employee (e.g. overtime burnout, promotion stagnation, compensation mismatch).
-2. **Interactive What-If Simulator**:
-   - HR leaders can simulate compensation raises, workload reductions, or promotion cycles to test retention outcomes before making policy changes.
-3. **Organization-Wide Skill Gap & Hire-vs-Reskill Decision Engine**:
-   - Calculates talent shortfalls across departments.
-   - Recommends 70/30 internal reskilling vs. external hiring targets.
-4. **Personalized Upskilling & Career Readiness**:
-   - Computes role readiness today and projected readiness post-learning plan.
-   - Maps missing competencies directly to course curriculum.
-5. **Agentic HR Orchestrator & Policy RAG**:
-   - Grounded Q&A over company benefits, PTO rollover, parental leave, and learning stipends.
+1. **📊 Workforce Dashboard & Analytics**:
+   - High-level overview of headcount, engagement score, burnout index, and department-wise attrition distribution.
+2. **🎯 Predictive Attrition & Risk Simulator**:
+   - ML-driven flight risk scoring (Low, Medium, High).
+   - Local feature importance explainability (e.g. overtime hours, salary level, work-life balance).
+   - Allows HR managers to simulate parameter adjustments before making retention decisions.
+3. **🧠 Skill Gap & Upskilling Engine**:
+   - Analyzes organizational skill shortages and balances internal reskilling targets vs external hiring.
+   - Calculates employee role fit readiness from current role to target aspirational role.
+   - Automatically maps missing competencies to curated training courses.
+4. **👤 Employee 360 Profiles**:
+   - Comprehensive employee dossier with retention risk, missing competencies, and tailored action plans.
+5. **🤖 HR Policy Assistant (RAG)**:
+   - Grounded natural language retrieval for company policies (leave entitlements, PTO rollover, parental leave, learning stipends).

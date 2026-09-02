@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 from fastapi import APIRouter, HTTPException, Query
 from app.validation.employee_schema import EmployeeInputSchema, AttritionPredictionResponse, BatchAttritionRequest
 from app.services.attrition_service import attrition_service
