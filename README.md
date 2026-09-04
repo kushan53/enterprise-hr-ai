@@ -6,8 +6,6 @@
 [![Tests Passing](https://img.shields.io/badge/Tests-11%2F11%20Passed-10B981.svg)](https://github.com/kushan53/enterprise-hr-ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> 🚀 **Live Interactive Web Application:** [https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app](https://enterprise-hr-ai-b9owezaeqsfwxmqma3e4et.streamlit.app/)
-
 An end-to-end HR analytics and artificial intelligence platform combining **predictive machine learning for employee flight-risk**, **organizational skill gap analysis**, **personalized upskilling recommendations**, and **grounded policy Q&A (RAG)**.
 
 ---
